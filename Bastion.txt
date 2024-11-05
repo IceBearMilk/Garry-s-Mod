@@ -1,0 +1,3664 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "ogg",
+						["UniqueID"] = "1967530664",
+						["Radius"] = 9999,
+						["URL"] = "https://www.dropbox.com/s/2c2pu2i20q4uvsx/_mp3.ogg?dl=0",
+						["Name"] = " mp3",
+						["Volume"] = 4,
+					},
+				},
+			},
+			["self"] = {
+				["Arguments"] = "t",
+				["Invert"] = true,
+				["Event"] = "button",
+				["UniqueID"] = "2342057923",
+				["EditorExpand"] = true,
+				["ClassName"] = "event",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "759009479",
+		["EditorExpand"] = true,
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Run"] = "walk_all",
+				["ClassName"] = "holdtype",
+				["UniqueID"] = "102561552",
+				["Walk"] = "walk_all",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["HideEntity"] = true,
+				["Model"] = "models/player/gman_high.mdl",
+				["Size"] = 1.3,
+				["UniqueID"] = "3311948283",
+				["DrawWeapon"] = false,
+				["ClassName"] = "entity",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3104212885",
+		["Name"] = "My guy",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Material"] = "https://puu.sh/vnnso.png",
+						["UniqueID"] = "2398534803",
+						["ClassName"] = "model",
+						["Position"] = Vector(-48.570999145508, -6.4000000953674, 0),
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/18ggooo6ot3tz1f/BastionBodyLowerF.obj?dl=0",
+						["Angles"] = Angle(90, 3.7278055970091e-005, -8.1000003814697),
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "4273953801",
+				["Model"] = "models/pac/default.mdl",
+				["Bone"] = "spine 1",
+				["Name"] = "Spine",
+				["Position"] = Vector(0, 0.0001220703125, 0),
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "clip",
+								["UniqueID"] = "1036850795",
+								["Angles"] = Angle(3.2208676338196, 179.99998474121, -179.99992370605),
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Material"] = "https://puu.sh/vnnso.png",
+						["UniqueID"] = "41079189",
+						["EditorExpand"] = true,
+						["Position"] = Vector(40.5703125, -0.000244140625, 14.915100097656),
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/0mhkdxeffb5glhy/BastionThighsF.obj?dl=0",
+						["Angles"] = Angle(-90, -90, -179.99995422363),
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "993879029",
+				["Model"] = "models/pac/default.mdl",
+				["Bone"] = "right thigh",
+				["Name"] = "Right thigh",
+				["Size"] = 0.6,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "ogg",
+								["UniqueID"] = "369994218",
+								["URL"] = "https://www.dropbox.com/s/kooclrp2ufyjxsn/Overwatch_Music_Play_Of_The_Game_.ogg?dl=0",
+								["Name"] = "overwatch music play of the game ",
+								["Volume"] = 4,
+							},
+						},
+					},
+					["self"] = {
+						["Arguments"] = "pepe",
+						["Invert"] = true,
+						["Event"] = "command",
+						["UniqueID"] = "3278583739",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "2349515046",
+				["Name"] = "Music",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "ogg",
+								["UniqueID"] = "10592720",
+								["Radius"] = 2555,
+								["URL"] = "https://www.dropbox.com/s/be2d8uyvw92n3c0/Bastion%20Noise%20101.ogg?dl=0",
+								["Name"] = "bastion%20noise%20101",
+								["Volume"] = 4,
+							},
+						},
+					},
+					["self"] = {
+						["Arguments"] = "50",
+						["Invert"] = true,
+						["UniqueID"] = "4099150446",
+						["Event"] = "owner_health",
+						["Operator"] = "equal or below",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "2030370",
+				["Name"] = "Health",
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Arguments"] = "ship",
+								["Invert"] = true,
+								["Event"] = "command",
+								["UniqueID"] = "2187264316",
+								["EditorExpand"] = true,
+								["ClassName"] = "event",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["UniqueID"] = "380411569",
+										["Hide"] = true,
+										["EditorExpand"] = true,
+										["Position"] = Vector(15.3896484375, -24.591430664063, 32.933776855469),
+										["Angles"] = Angle(70.689788818359, -90.000022888184, -132.93019104004),
+										["ClassName"] = "model",
+										["Fullbright"] = true,
+										["Model"] = "https://www.dropbox.com/s/sb2nzmw5g87mpas/BastionLeftHandF.obj?dl=0",
+										["Material"] = "https://puu.sh/vnnso.png",
+									},
+								},
+							},
+							["self"] = {
+								["EditorExpand"] = true,
+								["UniqueID"] = "3186495615",
+								["AffectChildren"] = true,
+								["Expression"] = "floor((min(1,timeex()))/1)",
+								["ClassName"] = "proxy",
+								["VariableName"] = "Hide",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "272814998",
+						["Name"] = "Shit false",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "command",
+								["Arguments"] = "ship",
+								["UniqueID"] = "643758668",
+								["ClassName"] = "event",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "https://puu.sh/vnnso.png",
+								["UniqueID"] = "4105113436",
+								["ClassName"] = "model",
+								["Position"] = Vector(15.3896484375, -24.591430664063, 32.933776855469),
+								["Fullbright"] = true,
+								["Model"] = "https://www.dropbox.com/s/sb2nzmw5g87mpas/BastionLeftHandF.obj?dl=0",
+								["Angles"] = Angle(70.689788818359, -90.000022888184, -132.93019104004),
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "2607322423",
+						["Name"] = "Shit false",
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "4259107593",
+				["Model"] = "models/pac/default.mdl",
+				["Bone"] = "left hand",
+				["Name"] = "Left hand",
+				["Size"] = 0.375,
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "4167698097",
+				["Bone"] = "left thigh",
+				["Position"] = Vector(6.9041748046875, -10.970703125, -1.8420867919922),
+				["ClassName"] = "bone",
+			},
+		},
+		[7] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "912260914",
+				["Bone"] = "right calf",
+				["Position"] = Vector(-5.8330078125, -0.00042724609375, -0.00067138671875),
+				["ClassName"] = "bone",
+			},
+		},
+		[8] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "813319561",
+				["Bone"] = "pelvis",
+				["Position"] = Vector(0, 0, 4.4000000953674),
+				["ClassName"] = "bone",
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "clip",
+								["UniqueID"] = "2884828122",
+								["Angles"] = Angle(0, 179.99996948242, 179.99995422363),
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Material"] = "https://puu.sh/vnnso.png",
+						["UniqueID"] = "902621527",
+						["EditorExpand"] = true,
+						["Position"] = Vector(25.95703125, -0.4627685546875, 14.940979003906),
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/6d6nps51ohg097u/BastionCalfsF.obj?dl=0",
+						["Angles"] = Angle(-90, -179.99984741211, -90),
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "1971687335",
+				["Model"] = "models/pac/default.mdl",
+				["Bone"] = "right calf",
+				["Name"] = "Right calf",
+				["Size"] = 0.55,
+			},
+		},
+		[10] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "sound",
+										["UniqueID"] = "1659234766",
+										["Pitch"] = 0.326,
+										["EditorExpand"] = true,
+										["Name"] = "dog footstep[1,4]",
+										["Sound"] = "npc/dog/dog_footstep[1,4].wav",
+									},
+								},
+							},
+							["self"] = {
+								["AffectChildrenOnly"] = true,
+								["Invert"] = true,
+								["Name"] = "is ranger below 5?",
+								["ClassName"] = "event",
+								["UniqueID"] = "3181550699",
+								["RootOwner"] = false,
+								["EditorExpand"] = true,
+								["Operator"] = "below",
+								["Arguments"] = "5@@10",
+								["Event"] = "ranger",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "3681250577",
+						["TintColor"] = Vector(0.63942295312881, 0.63942295312881, 0.63942295312881),
+						["Name"] = "left foot",
+						["Alpha"] = 0,
+						["Angles"] = Angle(0, 90, 0),
+						["EditorExpand"] = true,
+						["Bone"] = "left toe",
+						["ClassName"] = "model",
+						["Position"] = Vector(-30, 0, 0),
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "sound",
+										["UniqueID"] = "905788888",
+										["Pitch"] = 0.3,
+										["EditorExpand"] = true,
+										["Name"] = "dog footstep[1,4]",
+										["Sound"] = "npc/dog/dog_footstep[1,4].wav",
+									},
+								},
+							},
+							["self"] = {
+								["AffectChildrenOnly"] = true,
+								["Invert"] = true,
+								["Name"] = "is ranger below 5?",
+								["ClassName"] = "event",
+								["UniqueID"] = "213354147",
+								["RootOwner"] = false,
+								["EditorExpand"] = true,
+								["Operator"] = "below",
+								["Arguments"] = "5@@10",
+								["Event"] = "ranger",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "103201093",
+						["TintColor"] = Vector(0.63942295312881, 0.63942295312881, 0.63942295312881),
+						["Name"] = "right foot",
+						["Alpha"] = 0,
+						["Angles"] = Angle(0, 90, 0),
+						["EditorExpand"] = true,
+						["Bone"] = "right toe",
+						["ClassName"] = "model",
+						["Position"] = Vector(-30, 0, 0),
+					},
+				},
+			},
+			["self"] = {
+				["Name"] = "realistic footsteps",
+				["ClassName"] = "group",
+				["UniqueID"] = "2980027574",
+				["Description"] = "add parts to me!",
+			},
+		},
+		[11] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "bone",
+				["Position"] = Vector(-3.572265625, -0.03515625, -0.00042724609375),
+				["UniqueID"] = "3811180891",
+			},
+		},
+		[12] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "2069976201",
+				["Bone"] = "left calf",
+				["Position"] = Vector(-5.8671875, -0.000335693359375, 6.103515625e-005),
+				["ClassName"] = "bone",
+			},
+		},
+		[13] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(0, 0, 9.8999996185303),
+				["Position"] = Vector(4.895751953125, -2.4384765625, 3.4188842773438),
+				["Bone"] = "right upperarm",
+				["UniqueID"] = "812654810",
+				["ClassName"] = "bone",
+			},
+		},
+		[14] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "176535190",
+				["Bone"] = "spine 4",
+				["Position"] = Vector(8.1999998092651, -1.5, 0),
+				["ClassName"] = "bone",
+			},
+		},
+		[15] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(0, 0, -22.799999237061),
+				["Position"] = Vector(4.400146484375, -3.2138671875, -3.3701477050781),
+				["Bone"] = "left upperarm",
+				["UniqueID"] = "1440343667",
+				["ClassName"] = "bone",
+			},
+		},
+		[16] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "ogg",
+										["UniqueID"] = "2105333811",
+										["Radius"] = 25555,
+										["URL"] = "https://www.dropbox.com/s/pi91o3lyhuuti8e/na.ogg?dl=0",
+										["Name"] = "na",
+										["Volume"] = 4,
+									},
+								},
+							},
+							["self"] = {
+								["Arguments"] = "e",
+								["Invert"] = true,
+								["Event"] = "button",
+								["UniqueID"] = "325365919",
+								["EditorExpand"] = true,
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["Name"] = "Naxoi",
+						["ClassName"] = "group",
+						["UniqueID"] = "903633262",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "2322415231",
+				["Name"] = "Naxoi",
+			},
+		},
+		[17] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 0,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "939546949",
+												["Expression"] = "(min(1.7,timeex()*2)*(-10))+10",
+												["VariableName"] = "PositionOffset",
+											},
+										},
+										[2] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+																[1] = {
+																	["children"] = {
+																	},
+																	["self"] = {
+																		["ClassName"] = "event",
+																		["UniqueID"] = "1189363045",
+																		["Event"] = "button",
+																		["Arguments"] = "h",
+																		["Invert"] = true,
+																	},
+																},
+															},
+															["self"] = {
+																["Velocity"] = 111,
+																["UniqueID"] = "130654111",
+																["DieTime"] = 0.1,
+																["EndLength"] = 29.4,
+																["NumberParticles"] = 15,
+																["Position"] = Vector(0.00030517578125, 7.626953125, -0.36981201171875),
+																["EndSize"] = 0,
+																["ClassName"] = "particles",
+																["StartLength"] = 45.3,
+																["Spread"] = 0,
+																["Lighting"] = false,
+																["Material"] = "sprites/muzzleflash4",
+																["StartSize"] = 23.9,
+																["Angles"] = Angle(-0.91061502695084, 89.999961853027, 0.00019639274978545),
+															},
+														},
+														[2] = {
+															["children"] = {
+															},
+															["self"] = {
+																["Material"] = "https://puu.sh/vlZMW.jpg",
+																["UniqueID"] = "1990663615",
+																["Position"] = Vector(-0.00018310546875, -78.271484375, 21.729034423828),
+																["Fullbright"] = true,
+																["Model"] = "https://www.dropbox.com/s/z1zu3l5chtb1wop/BastionMinigunF.obj?dl=0",
+																["ClassName"] = "model",
+															},
+														},
+														[3] = {
+															["children"] = {
+																[1] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["Event"] = "timer",
+																				["Arguments"] = "0.5",
+																				["UniqueID"] = "3457638833",
+																				["ClassName"] = "event",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["LifeTime"] = 25,
+																		["ClassName"] = "projectile",
+																		["UniqueID"] = "2853708719",
+																		["Speed"] = 0.1,
+																		["OutfitPartUID"] = "449352041",
+																		["Angles"] = Angle(-34.853954315186, 179.99995422363, -179.99996948242),
+																		["Position"] = Vector(-5.8603515625, 0.43341064453125, 4.08251953125),
+																		["Spread"] = 0.1,
+																	},
+																},
+																[2] = {
+																	["children"] = {
+																	},
+																	["self"] = {
+																		["PlayCount"] = 1555555,
+																		["ClassName"] = "ogg",
+																		["UniqueID"] = "2488912494",
+																		["URL"] = "https://www.dropbox.com/s/eyjiagawi76sr8s/sound_012.ogg?dl=0",
+																		["Volume"] = 4,
+																		["Name"] = "sound 012",
+																		["Pitch"] = 1.378,
+																	},
+																},
+																[3] = {
+																	["children"] = {
+																	},
+																	["self"] = {
+																		["PlayCount"] = 155555,
+																		["ClassName"] = "ogg",
+																		["UniqueID"] = "163745547",
+																		["URL"] = "https://www.dropbox.com/s/eyjiagawi76sr8s/sound_012.ogg?dl=0",
+																		["Name"] = "sound 012",
+																		["Volume"] = 4,
+																	},
+																},
+																[4] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["Event"] = "timer",
+																				["Arguments"] = "0.1",
+																				["UniqueID"] = "236498171",
+																				["ClassName"] = "event",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["LifeTime"] = 25,
+																		["ClassName"] = "projectile",
+																		["UniqueID"] = "2885017949",
+																		["Speed"] = 0.1,
+																		["OutfitPartUID"] = "449352041",
+																		["Angles"] = Angle(-34.853954315186, 179.99995422363, -179.99996948242),
+																		["Position"] = Vector(-5.859375, -0.68487548828125, 4.0869140625),
+																		["Spread"] = 0.1,
+																	},
+																},
+																[5] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["Event"] = "timer",
+																				["Arguments"] = "0.2",
+																				["UniqueID"] = "3269129188",
+																				["ClassName"] = "event",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["LifeTime"] = 25,
+																		["ClassName"] = "projectile",
+																		["UniqueID"] = "573613016",
+																		["Speed"] = 0.1,
+																		["OutfitPartUID"] = "3621596613",
+																		["Angles"] = Angle(-34.853954315186, 179.99995422363, -179.99996948242),
+																		["Position"] = Vector(-5.8603515625, 0.43341064453125, 4.08251953125),
+																		["Spread"] = 0.1,
+																	},
+																},
+																[6] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["ClassName"] = "sprite",
+																				["Size"] = 4.675,
+																				["SpritePath"] = "sprites/light_glow02_add_noz",
+																				["Color"] = Vector(255, 102, 0),
+																				["UniqueID"] = "3179834150",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["ClassName"] = "model",
+																		["Position"] = Vector(-0.001953125, 26.861633300781, 0.001953125),
+																		["Model"] = "models/pac/default.mdl",
+																		["Size"] = 0.001,
+																		["EditorExpand"] = true,
+																		["Name"] = "Ness",
+																		["UniqueID"] = "1949492348",
+																	},
+																},
+																[7] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["Event"] = "timer",
+																				["Arguments"] = "0.1",
+																				["UniqueID"] = "3006501283",
+																				["ClassName"] = "event",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Position"] = Vector(-6.103515625e-005, 27.129999160767, 0.00030517578125),
+																		["Physical"] = true,
+																		["UniqueID"] = "2782732098",
+																		["Speed"] = 2,
+																		["EditorExpand"] = true,
+																		["BulletImpact"] = true,
+																		["Angles"] = Angle(-1.280660512748e-006, 0, 6.8301892497402e-006),
+																		["Sticky"] = true,
+																		["Mass"] = 555,
+																		["ClassName"] = "projectile",
+																		["RemoveOnCollide"] = true,
+																		["Radius"] = 12,
+																		["OutfitPartUID"] = "1949492348",
+																		["Damage"] = 55,
+																		["EyeAngles"] = true,
+																		["Gravity"] = false,
+																	},
+																},
+																[8] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["Event"] = "timer",
+																				["Arguments"] = "0.3",
+																				["UniqueID"] = "3937901719",
+																				["ClassName"] = "event",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["LifeTime"] = 25,
+																		["ClassName"] = "projectile",
+																		["UniqueID"] = "1455720749",
+																		["Speed"] = 0.1,
+																		["OutfitPartUID"] = "1268690354",
+																		["Angles"] = Angle(-34.853954315186, 179.99995422363, -179.99996948242),
+																		["Position"] = Vector(-5.8623046875, 0.26123046875, 4.08447265625),
+																		["Spread"] = 0.1,
+																	},
+																},
+																[9] = {
+																	["children"] = {
+																	},
+																	["self"] = {
+																		["ClassName"] = "event",
+																		["UniqueID"] = "1017541439",
+																		["Event"] = "button",
+																		["Arguments"] = "h",
+																		["Invert"] = true,
+																	},
+																},
+																[10] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["Event"] = "timer",
+																				["Arguments"] = "0.4",
+																				["UniqueID"] = "3568222871",
+																				["ClassName"] = "event",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["LifeTime"] = 25,
+																		["ClassName"] = "projectile",
+																		["UniqueID"] = "3992130508",
+																		["Speed"] = 0.1,
+																		["OutfitPartUID"] = "3621596613",
+																		["Angles"] = Angle(-34.853954315186, 179.99995422363, -179.99996948242),
+																		["Position"] = Vector(-5.8603515625, 0.43341064453125, 4.08251953125),
+																		["Spread"] = 0.1,
+																	},
+																},
+																[11] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["Event"] = "timer",
+																				["Arguments"] = "0.2",
+																				["UniqueID"] = "2109269844",
+																				["ClassName"] = "event",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Position"] = Vector(-6.103515625e-005, 27.129999160767, 0.00030517578125),
+																		["Physical"] = true,
+																		["UniqueID"] = "258048254",
+																		["Speed"] = 2,
+																		["EditorExpand"] = true,
+																		["BulletImpact"] = true,
+																		["Angles"] = Angle(-1.280660512748e-006, 0, 6.8301892497402e-006),
+																		["Sticky"] = true,
+																		["Mass"] = 555,
+																		["ClassName"] = "projectile",
+																		["RemoveOnCollide"] = true,
+																		["Radius"] = 12,
+																		["OutfitPartUID"] = "2348087824",
+																		["Damage"] = 55,
+																		["EyeAngles"] = true,
+																		["Gravity"] = false,
+																	},
+																},
+																[12] = {
+																	["children"] = {
+																	},
+																	["self"] = {
+																		["ClassName"] = "model",
+																		["UniqueID"] = "1268690354",
+																		["Model"] = "models/weapons/rifleshell.mdl",
+																		["Position"] = Vector(-4.9462890625, -6.922119140625, 4.03271484375),
+																		["Name"] = "rifleshell",
+																		["Angles"] = Angle(-5.9123827668373e-005, 90, -4.1888270061463e-005),
+																	},
+																},
+																[13] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["Event"] = "timer",
+																				["Arguments"] = "0.3",
+																				["UniqueID"] = "4203972673",
+																				["ClassName"] = "event",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Position"] = Vector(-6.103515625e-005, 27.129999160767, 0.00030517578125),
+																		["Physical"] = true,
+																		["UniqueID"] = "459470852",
+																		["Speed"] = 2,
+																		["EditorExpand"] = true,
+																		["BulletImpact"] = true,
+																		["Angles"] = Angle(-1.280660512748e-006, 0, 6.8301892497402e-006),
+																		["Sticky"] = true,
+																		["Mass"] = 555,
+																		["ClassName"] = "projectile",
+																		["RemoveOnCollide"] = true,
+																		["Radius"] = 12,
+																		["OutfitPartUID"] = "1414992669",
+																		["Damage"] = 55,
+																		["EyeAngles"] = true,
+																		["Gravity"] = false,
+																	},
+																},
+															},
+															["self"] = {
+																["ClassName"] = "group",
+																["UniqueID"] = "1748892176",
+																["EditorExpand"] = true,
+															},
+														},
+														[4] = {
+															["children"] = {
+																[1] = {
+																	["children"] = {
+																	},
+																	["self"] = {
+																		["ClassName"] = "event",
+																		["UniqueID"] = "2635646864",
+																		["Event"] = "button",
+																		["Arguments"] = "h",
+																		["Invert"] = true,
+																	},
+																},
+															},
+															["self"] = {
+																["Max"] = 360,
+																["ClassName"] = "proxy",
+																["UniqueID"] = "628632874",
+																["InputMultiplier"] = 10,
+																["Function"] = "none",
+																["VariableName"] = "AngleOffset",
+															},
+														},
+														[5] = {
+															["children"] = {
+																[1] = {
+																	["children"] = {
+																	},
+																	["self"] = {
+																		["ClassName"] = "event",
+																		["UniqueID"] = "1667628663",
+																		["Event"] = "button",
+																		["Arguments"] = "h",
+																		["Invert"] = true,
+																	},
+																},
+															},
+															["self"] = {
+																["Velocity"] = 111,
+																["UniqueID"] = "1576551860",
+																["DieTime"] = 0.1,
+																["NumberParticles"] = 15,
+																["EndLength"] = 29.4,
+																["FireDelay"] = 0.3,
+																["Position"] = Vector(0.00030517578125, 7.626953125, -0.36981201171875),
+																["EndSize"] = 0,
+																["ClassName"] = "particles",
+																["StartLength"] = 45.3,
+																["Spread"] = 0,
+																["Lighting"] = false,
+																["Material"] = "sprites/flamelet3",
+																["StartSize"] = 23.9,
+																["Angles"] = Angle(-0.91061502695084, 89.999961853027, 0.00019639274978545),
+															},
+														},
+													},
+													["self"] = {
+														["UniqueID"] = "1734672960",
+														["Name"] = "Minigun",
+														["Alpha"] = 0,
+														["ClassName"] = "model",
+														["Size"] = 0.675,
+														["Position"] = Vector(-0.0001678466796875, 77.4853515625, -21.802703857422),
+														["AngleOffset"] = Angle(11, 0, 0),
+														["Model"] = "models/pac/default.mdl",
+														["EditorExpand"] = true,
+													},
+												},
+											},
+											["self"] = {
+												["ClassName"] = "model",
+												["Material"] = "https://puu.sh/vlZMW.jpg",
+												["UniqueID"] = "2707296926",
+												["EditorExpand"] = true,
+												["Position"] = Vector(19.7890625, -4.896484375, -66.328125),
+												["Fullbright"] = true,
+												["Model"] = "https://www.dropbox.com/s/oepy1wd5w6ymgjz/BastionMinigun%20BaseF1.obj?dl=0",
+												["Angles"] = Angle(-5.6828112602234, 59.354301452637, 88.665802001953),
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 0,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "542929539",
+												["Axis"] = "y",
+												["Expression"] = "min(1.5,timeex()*100)",
+												["VariableName"] = "PositionOffset",
+											},
+										},
+										[4] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 0,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "2778573383",
+												["Axis"] = "z",
+												["Expression"] = "min(5,timeex()*25)",
+												["VariableName"] = "PositionOffset",
+											},
+										},
+										[5] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 0,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "2557104511",
+												["Expression"] = "(min(9.5,timeex()*10)*(-10))+10",
+												["VariableName"] = "AngleOffset",
+											},
+										},
+									},
+									["self"] = {
+										["UniqueID"] = "3914475708",
+										["Name"] = "Minigun base",
+										["Alpha"] = 0,
+										["AngleOffset"] = Angle(-85, 0, -5.1630311012268),
+										["Angles"] = Angle(-1.4007224535817e-006, -89.725135803223, -2.0010320440633e-006),
+										["PositionOffset"] = Vector(10, 1.5, 0),
+										["EditorExpand"] = true,
+										["ClassName"] = "model",
+										["Model"] = "models/pac/default.mdl",
+										["Position"] = Vector(-3.6117401123047, 18.059326171875, 66.404296875),
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "ship@@0",
+										["Invert"] = true,
+										["Event"] = "command",
+										["UniqueID"] = "1284130564",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "group",
+								["UniqueID"] = "1677786479",
+								["Name"] = "Ship+",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+															},
+															["self"] = {
+																["Material"] = "https://puu.sh/vlZMW.jpg",
+																["UniqueID"] = "3133250825",
+																["Position"] = Vector(-0.00018310546875, -78.271484375, 21.729034423828),
+																["Fullbright"] = true,
+																["Model"] = "https://www.dropbox.com/s/z1zu3l5chtb1wop/BastionMinigunF.obj?dl=0",
+																["ClassName"] = "model",
+															},
+														},
+														[2] = {
+															["children"] = {
+																[1] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["Event"] = "timer",
+																				["Arguments"] = "0.3",
+																				["UniqueID"] = "1605135135",
+																				["ClassName"] = "event",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Angles"] = Angle(-1.280660512748e-006, 0, 6.8301892497402e-006),
+																		["UniqueID"] = "1298838753",
+																		["Speed"] = 2,
+																		["RemoveOnCollide"] = true,
+																		["BulletImpact"] = true,
+																		["EditorExpand"] = true,
+																		["Sticky"] = true,
+																		["Mass"] = 555,
+																		["ClassName"] = "projectile",
+																		["Position"] = Vector(-6.103515625e-005, 27.129999160767, 0.00030517578125),
+																		["Radius"] = 12,
+																		["Physical"] = true,
+																		["Damage"] = 55,
+																		["EyeAngles"] = true,
+																		["Gravity"] = false,
+																	},
+																},
+																[2] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["PlayCount"] = 9999,
+																				["ClassName"] = "ogg",
+																				["UniqueID"] = "554205673",
+																				["URL"] = "https://www.dropbox.com/s/eyjiagawi76sr8s/sound_012.ogg?dl=0",
+																				["Volume"] = 4,
+																				["Name"] = "sound 012",
+																				["Pitch"] = 1.314,
+																			},
+																		},
+																		[2] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["PlayCount"] = 9999,
+																				["ClassName"] = "ogg",
+																				["UniqueID"] = "3166381426",
+																				["URL"] = "https://www.dropbox.com/s/eyjiagawi76sr8s/sound_012.ogg?dl=0",
+																				["Name"] = "sound 012",
+																				["Volume"] = 4,
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Arguments"] = "h",
+																		["Invert"] = true,
+																		["Event"] = "button",
+																		["EditorExpand"] = true,
+																		["UniqueID"] = "1638148780",
+																		["Name"] = "button find simple\"h\"",
+																		["ClassName"] = "event",
+																	},
+																},
+																[3] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["Event"] = "timer",
+																				["Arguments"] = "0.2",
+																				["UniqueID"] = "256847772",
+																				["ClassName"] = "event",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Angles"] = Angle(-1.280660512748e-006, 0, 6.8301892497402e-006),
+																		["UniqueID"] = "2634558260",
+																		["Speed"] = 2,
+																		["RemoveOnCollide"] = true,
+																		["BulletImpact"] = true,
+																		["EditorExpand"] = true,
+																		["Sticky"] = true,
+																		["Mass"] = 555,
+																		["ClassName"] = "projectile",
+																		["Position"] = Vector(-6.103515625e-005, 27.129999160767, 0.00030517578125),
+																		["Radius"] = 12,
+																		["Physical"] = true,
+																		["Damage"] = 55,
+																		["EyeAngles"] = true,
+																		["Gravity"] = false,
+																	},
+																},
+																[4] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["Event"] = "timer",
+																				["Arguments"] = "0.1",
+																				["UniqueID"] = "2565600273",
+																				["ClassName"] = "event",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Angles"] = Angle(-1.280660512748e-006, 0, 6.8301892497402e-006),
+																		["UniqueID"] = "2083196791",
+																		["Speed"] = 2,
+																		["RemoveOnCollide"] = true,
+																		["BulletImpact"] = true,
+																		["EditorExpand"] = true,
+																		["Sticky"] = true,
+																		["Mass"] = 555,
+																		["ClassName"] = "projectile",
+																		["Position"] = Vector(-6.103515625e-005, 27.129999160767, 0.00030517578125),
+																		["Radius"] = 12,
+																		["Physical"] = true,
+																		["Damage"] = 55,
+																		["EyeAngles"] = true,
+																		["Gravity"] = false,
+																	},
+																},
+															},
+															["self"] = {
+																["ClassName"] = "group",
+																["UniqueID"] = "1937566538",
+																["EditorExpand"] = true,
+															},
+														},
+														[3] = {
+															["children"] = {
+																[1] = {
+																	["children"] = {
+																	},
+																	["self"] = {
+																		["ClassName"] = "event",
+																		["UniqueID"] = "1538909625",
+																		["Event"] = "button",
+																		["Arguments"] = "h",
+																		["Invert"] = true,
+																	},
+																},
+															},
+															["self"] = {
+																["Max"] = 360,
+																["ClassName"] = "proxy",
+																["UniqueID"] = "2917201419",
+																["InputMultiplier"] = 10,
+																["Function"] = "none",
+																["VariableName"] = "AngleOffset",
+															},
+														},
+														[4] = {
+															["children"] = {
+																[1] = {
+																	["children"] = {
+																	},
+																	["self"] = {
+																		["ClassName"] = "event",
+																		["UniqueID"] = "213165781",
+																		["Event"] = "button",
+																		["Arguments"] = "h",
+																		["Invert"] = true,
+																	},
+																},
+															},
+															["self"] = {
+																["Velocity"] = 111,
+																["UniqueID"] = "3513544806",
+																["DieTime"] = 0.1,
+																["NumberParticles"] = 15,
+																["EndLength"] = 29.4,
+																["FireDelay"] = 0.3,
+																["Position"] = Vector(0.00030517578125, 7.626953125, -0.36981201171875),
+																["EndSize"] = 0,
+																["ClassName"] = "particles",
+																["StartLength"] = 45.3,
+																["Spread"] = 0,
+																["Lighting"] = false,
+																["Material"] = "sprites/flamelet3",
+																["StartSize"] = 23.9,
+																["Angles"] = Angle(-0.91061502695084, 89.999961853027, 0.00019639274978545),
+															},
+														},
+														[5] = {
+															["children"] = {
+																[1] = {
+																	["children"] = {
+																	},
+																	["self"] = {
+																		["ClassName"] = "event",
+																		["UniqueID"] = "2849932323",
+																		["Event"] = "button",
+																		["Arguments"] = "h",
+																		["Invert"] = true,
+																	},
+																},
+															},
+															["self"] = {
+																["Velocity"] = 111,
+																["UniqueID"] = "826123374",
+																["DieTime"] = 0.1,
+																["EndLength"] = 29.4,
+																["NumberParticles"] = 15,
+																["Position"] = Vector(0.00030517578125, 7.626953125, -0.36981201171875),
+																["EndSize"] = 0,
+																["ClassName"] = "particles",
+																["StartLength"] = 45.3,
+																["Spread"] = 0,
+																["Lighting"] = false,
+																["Material"] = "sprites/muzzleflash4",
+																["StartSize"] = 23.9,
+																["Angles"] = Angle(-0.91061502695084, 89.999961853027, 0.00019639274978545),
+															},
+														},
+													},
+													["self"] = {
+														["UniqueID"] = "1436306256",
+														["Name"] = "Minigun",
+														["Alpha"] = 0,
+														["ClassName"] = "model",
+														["Size"] = 0.675,
+														["Position"] = Vector(-0.0001678466796875, 77.4853515625, -21.802703857422),
+														["AngleOffset"] = Angle(18319904, 0, 0),
+														["Model"] = "models/pac/default.mdl",
+														["EditorExpand"] = true,
+													},
+												},
+											},
+											["self"] = {
+												["ClassName"] = "model",
+												["Material"] = "https://puu.sh/vlZMW.jpg",
+												["UniqueID"] = "4209510341",
+												["EditorExpand"] = true,
+												["Position"] = Vector(19.7890625, -4.896484375, -66.328125),
+												["Fullbright"] = true,
+												["Model"] = "https://www.dropbox.com/s/oepy1wd5w6ymgjz/BastionMinigun%20BaseF1.obj?dl=0",
+												["Angles"] = Angle(-5.6828112602234, 59.354301452637, 88.665802001953),
+											},
+										},
+									},
+									["self"] = {
+										["UniqueID"] = "1335627937",
+										["Name"] = "Minigun base",
+										["Alpha"] = 0,
+										["Angles"] = Angle(-1.4007224535817e-006, -89.725135803223, -2.0010320440633e-006),
+										["Position"] = Vector(-3.6117401123047, 18.059326171875, 66.404296875),
+										["ClassName"] = "model",
+										["AngleOffset"] = Angle(0, 0, -5.1630311012268),
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "ship",
+										["UniqueID"] = "147690147",
+										["Event"] = "command",
+										["ClassName"] = "event",
+										["EditorExpand"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "group",
+								["UniqueID"] = "2456568248",
+								["Name"] = "Ship-",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(-0.000274658203125, -22.530456542969, 73.740234375),
+								["Model"] = "models/hunter/blocks/cube025x025x025.mdl",
+								["Scale"] = Vector(2.7000000476837, 1, 1),
+								["Angles"] = Angle(6.40330256374e-007, 1.5367926607723e-005, 108.62349700928),
+								["ClassName"] = "model",
+								["Size"] = 0.125,
+								["Material"] = "models/props_combine/health_charger_glass",
+								["Color"] = Vector(0, 255, 233),
+								["Fullbright"] = true,
+								["Brightness"] = 60.2,
+								["UniqueID"] = "1653032890",
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(-75.296875, 17.2353515625, 0.000823974609375),
+						["Fullbright"] = true,
+						["EditorExpand"] = true,
+						["Angles"] = Angle(-89.999710083008, 168.23100280762, 0),
+						["DoubleFace"] = true,
+						["ClassName"] = "model",
+						["Material"] = "https://puu.sh/vnnso.png",
+						["Bone"] = "spine 4",
+						["Model"] = "https://www.dropbox.com/s/cftj5oau5hq7oa7/BastionBodyF.obj?dl=0",
+						["UniqueID"] = "772969615",
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "3680162388",
+				["Model"] = "models/pac/default.mdl",
+				["Bone"] = "spine 4",
+				["Name"] = "Spine 4",
+				["Angles"] = Angle(2.561321025496e-006, 9.178066648019e-006, 0),
+			},
+		},
+		[18] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "3326885028",
+								["ClassName"] = "clip",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Material"] = "https://puu.sh/vnnso.png",
+						["UniqueID"] = "2941132607",
+						["EditorExpand"] = true,
+						["Position"] = Vector(25.275390625, -0.5653076171875, -14.224609375),
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/6d6nps51ohg097u/BastionCalfsF.obj?dl=0",
+						["Angles"] = Angle(-90, 0, 90),
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "4275749680",
+				["Model"] = "models/pac/default.mdl",
+				["Bone"] = "left calf",
+				["Name"] = "Left calf",
+				["Size"] = 0.6,
+			},
+		},
+		[19] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "ogg",
+								["UniqueID"] = "1506883801",
+								["Radius"] = 2555,
+								["URL"] = "https://www.dropbox.com/s/cramwfggc35zlnc/Bastion%20Noise%206.ogg?dl=0",
+								["Name"] = "bastion%20noise%206",
+								["Volume"] = 4,
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["URL"] = "https://www.dropbox.com/s/mfgo8b0k5reur6r/Bastionzmach.txt?dl=0",
+										["ClassName"] = "custom_animation",
+										["UniqueID"] = "2975315990",
+										["EditorExpand"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["Arguments"] = "x",
+								["Invert"] = true,
+								["Event"] = "button",
+								["UniqueID"] = "224121180",
+								["EditorExpand"] = true,
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "3122057307",
+						["Name"] = "Hello",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["URL"] = "https://www.dropbox.com/s/q03jrfj0unvd2s8/Minigunner.txt?dl=0",
+										["ClassName"] = "custom_animation",
+										["UniqueID"] = "1773540774",
+										["EditorExpand"] = true,
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "ogg",
+										["UniqueID"] = "2601173046",
+										["URL"] = "https://www.dropbox.com/s/pgr3da23pzztqtp/00000003364E.ogg?dl=0",
+										["Name"] = "00000003364e",
+										["Volume"] = 4,
+									},
+								},
+								[3] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "animation",
+										["UniqueID"] = "1569514805",
+										["SequenceName"] = "idle",
+									},
+								},
+								[4] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["ClassName"] = "model",
+														["Material"] = "https://puu.sh/vlZMN.jpg",
+														["UniqueID"] = "464487689",
+														["Position"] = Vector(-0.0009765625, 20.479736328125, 72.21728515625),
+														["Bone"] = "spine 4",
+														["Fullbright"] = true,
+														["Model"] = "https://www.dropbox.com/s/jb6fg373cyovs9e/Bastion%20CoreF.obj?dl=0",
+														["Angles"] = Angle(8.5377354253069e-007, 0, -113.58683013916),
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "1937266811",
+												["Name"] = "default",
+												["ClassName"] = "model",
+												["Size"] = 0.2,
+												["Position"] = Vector(-1.560546875, 20.4814453125, 0.000244140625),
+												["Angles"] = Angle(3.4150950796175e-006, -25.611391067505, 9.5622650405858e-005),
+												["Bone"] = "spine 4",
+												["Model"] = "models/pac/default.mdl",
+												["EditorExpand"] = true,
+											},
+										},
+									},
+									["self"] = {
+										["EditorExpand"] = true,
+										["UniqueID"] = "709503171",
+										["AffectChildren"] = true,
+										["Expression"] = "(floor((min(1,timeex()))/1)*(-1))+1",
+										["ClassName"] = "proxy",
+										["VariableName"] = "Hide",
+									},
+								},
+							},
+							["self"] = {
+								["Arguments"] = "ship",
+								["Invert"] = true,
+								["Event"] = "command",
+								["UniqueID"] = "2348686903",
+								["EditorExpand"] = true,
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "3223454917",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "1208298965",
+				["Name"] = "Animation",
+			},
+		},
+		[20] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "1374296494",
+				["Bone"] = "right forearm",
+				["Position"] = Vector(7.080078125, 1.427490234375, -7.3740234375),
+				["ClassName"] = "bone",
+			},
+		},
+		[21] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "clip",
+								["UniqueID"] = "2731915812",
+								["Angles"] = Angle(-0.5312904715538, -180, 179.99993896484),
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["UniqueID"] = "1885490125",
+										["Angles"] = Angle(-0.51480340957642, 179.99996948242, 179.99995422363),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "125223547",
+								["Material"] = "https://puu.sh/vnnso.png",
+								["DoubleFace"] = true,
+								["EditorExpand"] = true,
+								["Position"] = Vector(0, 0, -0.0001220703125),
+								["Fullbright"] = true,
+								["Model"] = "https://www.dropbox.com/s/l0xrisay9mina5i/BastionShoulders.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Material"] = "https://puu.sh/vnnso.png",
+						["UniqueID"] = "2068713313",
+						["EditorExpand"] = true,
+						["Position"] = Vector(73.0615234375, -6.5491027832031, 12.421630859375),
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/tmmp5vl3yropvp9/BastionUpperarmsF.obj?dl=0",
+						["Angles"] = Angle(-82.148468017578, -90.000022888184, -179.99992370605),
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "269297855",
+				["Model"] = "models/pac/default.mdl",
+				["Bone"] = "right upperarm",
+				["Name"] = "Right upperarm",
+				["Size"] = 0.4,
+			},
+		},
+		[22] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["ClassName"] = "model",
+												["Material"] = "https://puu.sh/vnnso.png",
+												["UniqueID"] = "3749430371",
+												["Hide"] = true,
+												["Position"] = Vector(30.9638671875, 30.063232421875, -29.670000076294),
+												["Fullbright"] = true,
+												["Model"] = "https://www.dropbox.com/s/ig67blzkehy2i44/BastionLeftforearmF.obj?dl=0",
+												["Angles"] = Angle(-79.091468811035, 83.928581237793, 62.487998962402),
+											},
+										},
+									},
+									["self"] = {
+										["EditorExpand"] = true,
+										["UniqueID"] = "753425216",
+										["AffectChildren"] = true,
+										["Expression"] = "floor((min(1,timeex()))/1)",
+										["ClassName"] = "proxy",
+										["VariableName"] = "Hide",
+									},
+								},
+							},
+							["self"] = {
+								["Arguments"] = "ship",
+								["Invert"] = true,
+								["Event"] = "command",
+								["UniqueID"] = "963643173",
+								["EditorExpand"] = true,
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["Name"] = "Shit true",
+						["ClassName"] = "group",
+						["UniqueID"] = "2374816739",
+						["EditorExpand"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Material"] = "https://puu.sh/vnnso.png",
+										["UniqueID"] = "1102235824",
+										["ClassName"] = "model",
+										["Position"] = Vector(30.9638671875, 30.063232421875, -29.670000076294),
+										["Fullbright"] = true,
+										["Model"] = "https://www.dropbox.com/s/ig67blzkehy2i44/BastionLeftforearmF.obj?dl=0",
+										["Angles"] = Angle(-79.091468811035, 83.928581237793, 62.487998962402),
+									},
+								},
+							},
+							["self"] = {
+								["Arguments"] = "ship",
+								["UniqueID"] = "1624312150",
+								["Event"] = "command",
+								["ClassName"] = "event",
+								["EditorExpand"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["Name"] = "Ship false",
+						["ClassName"] = "group",
+						["UniqueID"] = "3143674284",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "3920476673",
+				["Model"] = "models/pac/default.mdl",
+				["Bone"] = "left forearm",
+				["Name"] = "Left forearm",
+				["Size"] = 0.325,
+			},
+		},
+		[23] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Material"] = "https://puu.sh/vnnso.png",
+						["UniqueID"] = "1321800104",
+						["EditorExpand"] = true,
+						["Position"] = Vector(-74.478996276855, -22.642000198364, -0.000457763671875),
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/rdlrragvib2k0qk/BastionHeadF.obj?dl=0",
+						["Angles"] = Angle(89.999961853027, 12.891512870789, 0),
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "2848853120",
+				["Model"] = "models/pac/default.mdl",
+				["Size"] = 0.25,
+				["Name"] = "Head",
+				["Position"] = Vector(-4.75390625, 3.72998046875, 0.0002899169921875),
+			},
+		},
+		[24] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+															},
+															["self"] = {
+																["ClassName"] = "event",
+																["UniqueID"] = "3921829938",
+																["Event"] = "button",
+																["Arguments"] = "r",
+																["Invert"] = true,
+															},
+														},
+													},
+													["self"] = {
+														["Max"] = 1.3,
+														["ClassName"] = "proxy",
+														["UniqueID"] = "4242992239",
+														["Axis"] = "y",
+														["InputMultiplier"] = 29.1,
+														["VariableName"] = "PositionOffset",
+													},
+												},
+												[2] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+															},
+															["self"] = {
+																["Event"] = "button",
+																["Arguments"] = "r",
+																["UniqueID"] = "16967009",
+																["ClassName"] = "event",
+															},
+														},
+													},
+													["self"] = {
+														["Max"] = 0,
+														["ClassName"] = "proxy",
+														["UniqueID"] = "590312759",
+														["Axis"] = "y",
+														["VariableName"] = "PositionOffset",
+													},
+												},
+												[3] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+																[1] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["ClassName"] = "event",
+																				["UniqueID"] = "2602185998",
+																				["Event"] = "button",
+																				["Arguments"] = "r",
+																				["Invert"] = true,
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Max"] = -2.4,
+																		["ClassName"] = "proxy",
+																		["UniqueID"] = "1097087509",
+																		["Axis"] = "z",
+																		["InputMultiplier"] = 35,
+																		["VariableName"] = "PositionOffset",
+																	},
+																},
+																[2] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																				[1] = {
+																					["children"] = {
+																						[1] = {
+																							["children"] = {
+																							},
+																							["self"] = {
+																								["Event"] = "timer",
+																								["Arguments"] = "0.2@@0",
+																								["UniqueID"] = "2473637920",
+																								["ClassName"] = "event",
+																							},
+																						},
+																					},
+																					["self"] = {
+																						["Damage"] = 55,
+																						["UniqueID"] = "2211363116",
+																						["Speed"] = 2,
+																						["EditorExpand"] = true,
+																						["BulletImpact"] = true,
+																						["Angles"] = Angle(-2.3905662601464e-005, -1.7075473806472e-005, 36.055000305176),
+																						["Position"] = Vector(-17.51953125, -19.56640625, 6.68017578125),
+																						["RemoveOnCollide"] = true,
+																						["ClassName"] = "projectile",
+																						["Physical"] = true,
+																						["Radius"] = 15,
+																						["OutfitPartUID"] = "4102465411",
+																						["OutfitPartName"] = "DADAR",
+																						["EyeAngles"] = true,
+																						["Gravity"] = false,
+																					},
+																				},
+																				[2] = {
+																					["children"] = {
+																						[1] = {
+																							["children"] = {
+																							},
+																							["self"] = {
+																								["SizeX"] = 7.9,
+																								["UniqueID"] = "1316210169",
+																								["SpritePath"] = "sprites/light_glow02_add_noz",
+																								["Color"] = Vector(255, 123, 0),
+																								["SizeY"] = 2.3,
+																								["Size"] = 3.425,
+																								["ClassName"] = "sprite",
+																							},
+																						},
+																					},
+																					["self"] = {
+																						["ClassName"] = "model",
+																						["Position"] = Vector(-22.939697265625, 17.76171875, 29.6669921875),
+																						["Model"] = "models/pac/default.mdl",
+																						["Size"] = 0.0001,
+																						["EditorExpand"] = true,
+																						["Name"] = "DADAR",
+																						["UniqueID"] = "4102465411",
+																					},
+																				},
+																				[3] = {
+																					["children"] = {
+																						[1] = {
+																							["children"] = {
+																							},
+																							["self"] = {
+																								["Event"] = "timer",
+																								["Arguments"] = "0.1@@0",
+																								["UniqueID"] = "1481972260",
+																								["ClassName"] = "event",
+																							},
+																						},
+																					},
+																					["self"] = {
+																						["Damage"] = 55,
+																						["UniqueID"] = "3437546066",
+																						["Speed"] = 2,
+																						["EditorExpand"] = true,
+																						["BulletImpact"] = true,
+																						["Angles"] = Angle(-2.3905662601464e-005, -1.7075473806472e-005, 36.055000305176),
+																						["Position"] = Vector(-17.5, -19.5, 6.6799998283386),
+																						["RemoveOnCollide"] = true,
+																						["ClassName"] = "projectile",
+																						["Physical"] = true,
+																						["Radius"] = 15,
+																						["OutfitPartUID"] = "4102465411",
+																						["OutfitPartName"] = "DADAR",
+																						["EyeAngles"] = true,
+																						["Gravity"] = false,
+																					},
+																				},
+																				[4] = {
+																					["children"] = {
+																					},
+																					["self"] = {
+																						["Arguments"] = "r",
+																						["Invert"] = true,
+																						["Event"] = "button",
+																						["UniqueID"] = "931010942",
+																						["EditorExpand"] = true,
+																						["ClassName"] = "event",
+																					},
+																				},
+																				[5] = {
+																					["children"] = {
+																						[1] = {
+																							["children"] = {
+																							},
+																							["self"] = {
+																								["Event"] = "timer",
+																								["Arguments"] = "0.3@@0",
+																								["UniqueID"] = "417318708",
+																								["ClassName"] = "event",
+																							},
+																						},
+																					},
+																					["self"] = {
+																						["Damage"] = 55,
+																						["UniqueID"] = "2718308802",
+																						["Speed"] = 2,
+																						["EditorExpand"] = true,
+																						["BulletImpact"] = true,
+																						["Angles"] = Angle(-2.3905662601464e-005, -1.7075473806472e-005, 36.055000305176),
+																						["Position"] = Vector(-17.5, -19.5, 6.6799998283386),
+																						["RemoveOnCollide"] = true,
+																						["ClassName"] = "projectile",
+																						["Physical"] = true,
+																						["Radius"] = 15,
+																						["OutfitPartUID"] = "4102465411",
+																						["OutfitPartName"] = "DADAR",
+																						["EyeAngles"] = true,
+																						["Gravity"] = false,
+																					},
+																				},
+																			},
+																			["self"] = {
+																				["ClassName"] = "group",
+																				["UniqueID"] = "3706113127",
+																				["EditorExpand"] = true,
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Material"] = "https://puu.sh/vlWS6.jpg",
+																		["UniqueID"] = "1957030687",
+																		["ClassName"] = "model",
+																		["EditorExpand"] = true,
+																		["Fullbright"] = true,
+																		["Model"] = "https://www.dropbox.com/s/zixg5l1lr3v77xr/BastionDuloF1.obj?dl=0",
+																		["Angles"] = Angle(2.9028306016698e-005, -1.0031841156888e-005, -37.67769241333),
+																	},
+																},
+																[3] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["ClassName"] = "event",
+																				["UniqueID"] = "2702181474",
+																				["Event"] = "button",
+																				["Arguments"] = "r",
+																				["Invert"] = true,
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Velocity"] = 39.6,
+																		["UniqueID"] = "68466646",
+																		["Lighting"] = false,
+																		["FireDelay"] = 0.3,
+																		["DieTime"] = 0.1,
+																		["EndSize"] = 0,
+																		["ClassName"] = "particles",
+																		["Position"] = Vector(-23.118713378906, 32.076171875, 9.6640625),
+																		["NumberParticles"] = 15,
+																		["EditorExpand"] = true,
+																		["Angles"] = Angle(-89.411209106445, -84.739608764648, 84.739440917969),
+																		["StartSize"] = 8.2,
+																		["Material"] = "sprites/flamelet4",
+																	},
+																},
+																[4] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["ClassName"] = "event",
+																				["UniqueID"] = "3035165515",
+																				["Event"] = "button",
+																				["Arguments"] = "r",
+																				["Invert"] = true,
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Velocity"] = 39.6,
+																		["UniqueID"] = "1458907968",
+																		["DieTime"] = 0.1,
+																		["Position"] = Vector(-23.1220703125, 31.720703125, 6.1035766601563),
+																		["EndLength"] = -48.4,
+																		["FireDelay"] = 0.1,
+																		["NumberParticles"] = 15,
+																		["EndSize"] = 0,
+																		["ClassName"] = "particles",
+																		["StartLength"] = 50.4,
+																		["Lighting"] = false,
+																		["Material"] = "sprites/muzzleflash4",
+																		["EditorExpand"] = true,
+																		["StartSize"] = 10.1,
+																		["Angles"] = Angle(-84.266250610352, 89.462959289551, -89.459732055664),
+																	},
+																},
+																[5] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["PlayCount"] = 44444,
+																				["ClassName"] = "ogg",
+																				["UniqueID"] = "1908215536",
+																				["Overlapping"] = true,
+																				["URL"] = "https://www.dropbox.com/s/0gnag1kmu0wo7wg/sound_004.ogg?dl=0",
+																				["Volume"] = 4,
+																				["Name"] = "sound 004",
+																				["Pitch"] = 1.287,
+																			},
+																		},
+																		[2] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["ClassName"] = "event",
+																				["UniqueID"] = "2481048070",
+																				["Event"] = "button",
+																				["Arguments"] = "r",
+																				["Invert"] = true,
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Velocity"] = 39.6,
+																		["UniqueID"] = "3079707547",
+																		["Lighting"] = false,
+																		["FireDelay"] = 0.1,
+																		["DieTime"] = 0.1,
+																		["EndSize"] = 0,
+																		["ClassName"] = "particles",
+																		["Position"] = Vector(-23.118713378906, 32.076171875, 9.6640625),
+																		["NumberParticles"] = 15,
+																		["EditorExpand"] = true,
+																		["Angles"] = Angle(-89.411209106445, -84.739608764648, 84.739440917969),
+																		["StartSize"] = 10.1,
+																		["Material"] = "sprites/muzzleflash4",
+																	},
+																},
+															},
+															["self"] = {
+																["UniqueID"] = "2250698324",
+																["Name"] = "Dulo",
+																["Alpha"] = 0,
+																["Angles"] = Angle(9.1353780589998e-005, 6.2325474573299e-005, 37.57633972168),
+																["PositionOffset"] = Vector(0, 0, -0.83215987682343),
+																["Position"] = Vector(0.000244140625, 0.4794921875, -0.62890625),
+																["ClassName"] = "model",
+																["Model"] = "models/pac/default.mdl",
+																["EditorExpand"] = true,
+															},
+														},
+													},
+													["self"] = {
+														["ClassName"] = "model",
+														["Material"] = "https://puu.sh/vlWS6.jpg",
+														["UniqueID"] = "397251363",
+														["EditorExpand"] = true,
+														["Position"] = Vector(36.599998474121, -25, 26.799999237061),
+														["Fullbright"] = true,
+														["Model"] = "https://www.dropbox.com/s/q71uydh9jxophor/BastionAutomatF1.obj?dl=0",
+														["Angles"] = Angle(-95.400001525879, -58.073001861572, 116.90699768066),
+													},
+												},
+											},
+											["self"] = {
+												["Alpha"] = 0,
+												["ClassName"] = "model",
+												["UniqueID"] = "2196049038",
+												["Model"] = "models/pac/default.mdl",
+												["EditorExpand"] = true,
+												["Position"] = Vector(2.7000000476837, 0.20000000298023, 0.30000001192093),
+												["Name"] = "Lost colony",
+												["Angles"] = Angle(94.470001220703, 86.727996826172, -0.80000001192093),
+											},
+										},
+									},
+									["self"] = {
+										["JigglePosition"] = false,
+										["ClassName"] = "jiggle",
+										["UniqueID"] = "788151559",
+										["Speed"] = 3,
+										["EyeAngles"] = true,
+										["EditorExpand"] = true,
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Event"] = "command",
+										["Arguments"] = "ship",
+										["UniqueID"] = "2569877059",
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Name"] = "ShipNo",
+								["ClassName"] = "group",
+								["UniqueID"] = "3022845351",
+								["EditorExpand"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+																[1] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																				[1] = {
+																					["children"] = {
+																						[1] = {
+																							["children"] = {
+																							},
+																							["self"] = {
+																								["ClassName"] = "event",
+																								["UniqueID"] = "3627317062",
+																								["Event"] = "button",
+																								["Hide"] = true,
+																								["Arguments"] = "r",
+																								["Invert"] = true,
+																							},
+																						},
+																					},
+																					["self"] = {
+																						["Velocity"] = 39.6,
+																						["UniqueID"] = "1762726220",
+																						["Hide"] = true,
+																						["DieTime"] = 0.3,
+																						["Position"] = Vector(-23.118530273438, 31.744140625, 9.897705078125),
+																						["EndSize"] = 0,
+																						["ClassName"] = "particles",
+																						["NumberParticles"] = 15,
+																						["Lighting"] = false,
+																						["Material"] = "sprites/muzzleflash4",
+																						["Angles"] = Angle(-80.595695495605, 89.690856933594, -89.685668945313),
+																						["StartSize"] = 3,
+																						["EditorExpand"] = true,
+																					},
+																				},
+																				[2] = {
+																					["children"] = {
+																						[1] = {
+																							["children"] = {
+																							},
+																							["self"] = {
+																								["ClassName"] = "event",
+																								["UniqueID"] = "2781588648",
+																								["Event"] = "button",
+																								["Hide"] = true,
+																								["Arguments"] = "r",
+																								["Invert"] = true,
+																							},
+																						},
+																					},
+																					["self"] = {
+																						["Velocity"] = 39.6,
+																						["UniqueID"] = "259180745",
+																						["DieTime"] = 0.1,
+																						["Hide"] = true,
+																						["FireDelay"] = 0.1,
+																						["Position"] = Vector(-23.118713378906, 32.076171875, 9.6640625),
+																						["EndSize"] = 0,
+																						["ClassName"] = "particles",
+																						["NumberParticles"] = 15,
+																						["Lighting"] = false,
+																						["Material"] = "sprites/muzzleflash4",
+																						["Angles"] = Angle(-89.411209106445, -84.739608764648, 84.739440917969),
+																						["StartSize"] = 10.1,
+																						["EditorExpand"] = true,
+																					},
+																				},
+																				[3] = {
+																					["children"] = {
+																						[1] = {
+																							["children"] = {
+																							},
+																							["self"] = {
+																								["ClassName"] = "event",
+																								["UniqueID"] = "1888633392",
+																								["Event"] = "button",
+																								["Hide"] = true,
+																								["Arguments"] = "r",
+																								["Invert"] = true,
+																							},
+																						},
+																					},
+																					["self"] = {
+																						["Velocity"] = 39.6,
+																						["UniqueID"] = "1296708593",
+																						["DieTime"] = 0.2,
+																						["Hide"] = true,
+																						["FireDelay"] = 0,
+																						["Position"] = Vector(-23.118530273438, 31.744140625, 9.897705078125),
+																						["EndSize"] = 0,
+																						["ClassName"] = "particles",
+																						["NumberParticles"] = 15,
+																						["Lighting"] = false,
+																						["Material"] = "sprites/muzzleflash4",
+																						["Angles"] = Angle(-80.595695495605, 89.690856933594, -89.685668945313),
+																						["StartSize"] = 3,
+																						["EditorExpand"] = true,
+																					},
+																				},
+																				[4] = {
+																					["children"] = {
+																						[1] = {
+																							["children"] = {
+																								[1] = {
+																									["children"] = {
+																										[1] = {
+																											["children"] = {
+																											},
+																											["self"] = {
+																												["Arguments"] = "0.3@@0",
+																												["UniqueID"] = "756033326",
+																												["Hide"] = true,
+																												["Event"] = "timer",
+																												["ClassName"] = "event",
+																											},
+																										},
+																									},
+																									["self"] = {
+																										["UniqueID"] = "1598368628",
+																										["Speed"] = 2,
+																										["BulletImpact"] = true,
+																										["Physical"] = true,
+																										["EditorExpand"] = true,
+																										["Angles"] = Angle(-2.3905662601464e-005, -1.7075473806472e-005, 36.055000305176),
+																										["Hide"] = true,
+																										["ClassName"] = "projectile",
+																										["Position"] = Vector(-22.551544189453, 18.404296875, 27.69677734375),
+																										["Radius"] = 15,
+																										["RemoveOnCollide"] = true,
+																										["Damage"] = 55,
+																										["EyeAngles"] = true,
+																										["Gravity"] = false,
+																									},
+																								},
+																								[2] = {
+																									["children"] = {
+																										[1] = {
+																											["children"] = {
+																											},
+																											["self"] = {
+																												["Arguments"] = "0.2@@0",
+																												["UniqueID"] = "3805461896",
+																												["Hide"] = true,
+																												["Event"] = "timer",
+																												["ClassName"] = "event",
+																											},
+																										},
+																									},
+																									["self"] = {
+																										["UniqueID"] = "2737048922",
+																										["Speed"] = 2,
+																										["BulletImpact"] = true,
+																										["Physical"] = true,
+																										["EditorExpand"] = true,
+																										["Angles"] = Angle(-2.3905662601464e-005, -1.7075473806472e-005, 36.055000305176),
+																										["Hide"] = true,
+																										["ClassName"] = "projectile",
+																										["Position"] = Vector(-22.551544189453, 18.404296875, 27.69677734375),
+																										["Radius"] = 15,
+																										["RemoveOnCollide"] = true,
+																										["Damage"] = 55,
+																										["EyeAngles"] = true,
+																										["Gravity"] = false,
+																									},
+																								},
+																								[3] = {
+																									["children"] = {
+																										[1] = {
+																											["children"] = {
+																											},
+																											["self"] = {
+																												["Arguments"] = "0.1@@0",
+																												["UniqueID"] = "3573277114",
+																												["Hide"] = true,
+																												["Event"] = "timer",
+																												["ClassName"] = "event",
+																											},
+																										},
+																									},
+																									["self"] = {
+																										["UniqueID"] = "1550025950",
+																										["Speed"] = 2,
+																										["BulletImpact"] = true,
+																										["Physical"] = true,
+																										["EditorExpand"] = true,
+																										["Angles"] = Angle(-2.3905662601464e-005, -1.7075473806472e-005, 36.055000305176),
+																										["Hide"] = true,
+																										["ClassName"] = "projectile",
+																										["Position"] = Vector(-22.551544189453, 18.404296875, 27.69677734375),
+																										["Radius"] = 15,
+																										["RemoveOnCollide"] = true,
+																										["Damage"] = 55,
+																										["EyeAngles"] = true,
+																										["Gravity"] = false,
+																									},
+																								},
+																								[4] = {
+																									["children"] = {
+																									},
+																									["self"] = {
+																										["ClassName"] = "event",
+																										["UniqueID"] = "3349825747",
+																										["Event"] = "button",
+																										["Hide"] = true,
+																										["Arguments"] = "r",
+																										["Invert"] = true,
+																									},
+																								},
+																							},
+																							["self"] = {
+																								["ClassName"] = "group",
+																								["UniqueID"] = "4033716597",
+																								["Hide"] = true,
+																							},
+																						},
+																					},
+																					["self"] = {
+																						["Material"] = "https://puu.sh/vlWS6.jpg",
+																						["UniqueID"] = "4228781858",
+																						["ClassName"] = "model",
+																						["Hide"] = true,
+																						["Fullbright"] = true,
+																						["Model"] = "https://www.dropbox.com/s/zixg5l1lr3v77xr/BastionDuloF1.obj?dl=0",
+																						["Angles"] = Angle(2.9028306016698e-005, -1.0031841156888e-005, -37.67769241333),
+																					},
+																				},
+																				[5] = {
+																					["children"] = {
+																						[1] = {
+																							["children"] = {
+																							},
+																							["self"] = {
+																								["ClassName"] = "event",
+																								["UniqueID"] = "3910143828",
+																								["Event"] = "button",
+																								["Hide"] = true,
+																								["Arguments"] = "r",
+																								["Invert"] = true,
+																							},
+																						},
+																					},
+																					["self"] = {
+																						["Max"] = -2.4,
+																						["ClassName"] = "proxy",
+																						["UniqueID"] = "1836497042",
+																						["Axis"] = "z",
+																						["Hide"] = true,
+																						["InputMultiplier"] = 35,
+																						["VariableName"] = "PositionOffset",
+																					},
+																				},
+																			},
+																			["self"] = {
+																				["UniqueID"] = "1620766531",
+																				["Hide"] = true,
+																				["Name"] = "Dulo",
+																				["Alpha"] = 0,
+																				["Angles"] = Angle(9.1353780589998e-005, 6.2325474573299e-005, 37.57633972168),
+																				["PositionOffset"] = Vector(0, 0, -1.1204217672348),
+																				["ClassName"] = "model",
+																				["EditorExpand"] = true,
+																				["Model"] = "models/pac/default.mdl",
+																				["Position"] = Vector(0.000244140625, 0.4794921875, -0.62890625),
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["UniqueID"] = "3279268773",
+																		["Hide"] = true,
+																		["EditorExpand"] = true,
+																		["Position"] = Vector(36.599998474121, -25, 26.799999237061),
+																		["Angles"] = Angle(-95.400001525879, -58.073001861572, 116.90699768066),
+																		["ClassName"] = "model",
+																		["Fullbright"] = true,
+																		["Model"] = "https://www.dropbox.com/s/q71uydh9jxophor/BastionAutomatF1.obj?dl=0",
+																		["Material"] = "https://puu.sh/vlWS6.jpg",
+																	},
+																},
+																[2] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["Arguments"] = "r",
+																				["UniqueID"] = "2128089162",
+																				["Hide"] = true,
+																				["Event"] = "button",
+																				["ClassName"] = "event",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Max"] = 0,
+																		["ClassName"] = "proxy",
+																		["UniqueID"] = "123155193",
+																		["Axis"] = "y",
+																		["Hide"] = true,
+																		["VariableName"] = "PositionOffset",
+																	},
+																},
+																[3] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																			},
+																			["self"] = {
+																				["ClassName"] = "event",
+																				["UniqueID"] = "2699616674",
+																				["Event"] = "button",
+																				["Hide"] = true,
+																				["Arguments"] = "r",
+																				["Invert"] = true,
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["Max"] = 1.3,
+																		["ClassName"] = "proxy",
+																		["UniqueID"] = "1825830569",
+																		["Axis"] = "y",
+																		["Hide"] = true,
+																		["InputMultiplier"] = 29.1,
+																		["VariableName"] = "PositionOffset",
+																	},
+																},
+															},
+															["self"] = {
+																["UniqueID"] = "1711485598",
+																["Hide"] = true,
+																["Name"] = "Lost colony",
+																["Alpha"] = 0,
+																["ClassName"] = "model",
+																["Position"] = Vector(2.7000000476837, 0.20000000298023, 0.30000001192093),
+																["Angles"] = Angle(1.6305623054504, 7.826765537262, 18.086429595947),
+																["Model"] = "models/pac/default.mdl",
+																["EditorExpand"] = true,
+															},
+														},
+													},
+													["self"] = {
+														["EditorExpand"] = true,
+														["UniqueID"] = "4174369317",
+														["AffectChildren"] = true,
+														["Expression"] = "floor((min(1,timeex()))/1)",
+														["ClassName"] = "proxy",
+														["VariableName"] = "Hide",
+													},
+												},
+											},
+											["self"] = {
+												["ClassName"] = "group",
+												["UniqueID"] = "3246800764",
+												["EditorExpand"] = true,
+											},
+										},
+									},
+									["self"] = {
+										["Arguments"] = "ship",
+										["Invert"] = true,
+										["Event"] = "command",
+										["UniqueID"] = "3301462120",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "group",
+								["UniqueID"] = "689208298",
+								["Name"] = "ShipYES",
+							},
+						},
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "42530789",
+						["Model"] = "models/pac/default.mdl",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "2800690672",
+				["Model"] = "models/pac/default.mdl",
+				["Bone"] = "right forearm",
+				["Name"] = "Right forearm",
+				["Size"] = 0.4,
+			},
+		},
+		[25] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "2050691531",
+				["Bone"] = "spine 1",
+				["Position"] = Vector(-12.087890625, 0, -0.0003662109375),
+				["ClassName"] = "bone",
+			},
+		},
+		[26] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "353684247",
+				["Bone"] = "left forearm",
+				["Position"] = Vector(4.748046875, 3.236572265625, 7.464599609375),
+				["ClassName"] = "bone",
+			},
+		},
+		[27] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "462581787",
+				["Bone"] = "left hand",
+				["Position"] = Vector(4.896484375, -1.488525390625, -0.0001220703125),
+				["ClassName"] = "bone",
+			},
+		},
+		[28] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["UniqueID"] = "2849879993",
+										["ClassName"] = "clip",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "https://puu.sh/vnnso.png",
+								["DoubleFace"] = true,
+								["UniqueID"] = "3256659626",
+								["EditorExpand"] = true,
+								["Fullbright"] = true,
+								["Model"] = "https://www.dropbox.com/s/l0xrisay9mina5i/BastionShoulders.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "3592605646",
+								["ClassName"] = "clip",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Material"] = "https://puu.sh/vnnso.png",
+						["UniqueID"] = "1782146147",
+						["EditorExpand"] = true,
+						["Position"] = Vector(71.6513671875, -6.4061889648438, -13.729370117188),
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/tmmp5vl3yropvp9/BastionUpperarmsF.obj?dl=0",
+						["Angles"] = Angle(-80.380439758301, 77.097610473633, 12.727048873901),
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "853546021",
+				["Model"] = "models/pac/default.mdl",
+				["Size"] = 0.45,
+				["Bone"] = "left upperarm",
+				["Name"] = "Left upperarm",
+				["Angles"] = Angle(1.4087265299167e-005, -5.8696940641312e-007, 15.955470085144),
+			},
+		},
+		[29] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "3212881913",
+								["ClassName"] = "clip",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Material"] = "https://puu.sh/vnnso.png",
+						["UniqueID"] = "205006818",
+						["EditorExpand"] = true,
+						["Position"] = Vector(40.5625, 0.0001220703125, -14.292114257813),
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/0mhkdxeffb5glhy/BastionThighsF.obj?dl=0",
+						["Angles"] = Angle(-90, -90, -179.99995422363),
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "2968980105",
+				["Model"] = "models/pac/default.mdl",
+				["Bone"] = "left thigh",
+				["Name"] = "Left Thigh",
+				["Size"] = 0.6,
+			},
+		},
+		[30] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3512281431",
+				["Bone"] = "right thigh",
+				["Position"] = Vector(-7.3986206054688, -10.875, -1.8980000019073),
+				["ClassName"] = "bone",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "100545499",
+		["Description"] = "add parts to me!",
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "ogg",
+						["UniqueID"] = "3996927302",
+						["URL"] = "https://www.dropbox.com/s/3ug2hzomefvzkg7/na_gleboff.ogg?dl=0",
+						["Name"] = "no sound",
+						["Volume"] = 4,
+					},
+				},
+			},
+			["self"] = {
+				["Arguments"] = "naxoi",
+				["Invert"] = true,
+				["Event"] = "command",
+				["UniqueID"] = "2757907964",
+				["EditorExpand"] = true,
+				["ClassName"] = "event",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3334543592",
+		["Name"] = "Musicanaxoi",
+	},
+},
+[5] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["UniqueID"] = "2831880990",
+												["Model"] = "models/hunter/plates/plate1x1.mdl",
+												["Scale"] = Vector(1, 1, 0.0010000000474975),
+												["Alpha"] = 0.775,
+												["Angles"] = Angle(3.6518835599963e-007, -45, 3.6285382520873e-005),
+												["Size"] = 0.2,
+												["PositionOffset"] = Vector(0, 0, 3.5),
+												["ClassName"] = "model",
+												["Material"] = "https://puu.sh/vnhT2.png",
+												["Brightness"] = 23.1,
+												["Position"] = Vector(0.001953125, 0.002197265625, -1.6591796875),
+											},
+										},
+									},
+									["self"] = {
+										["UniqueID"] = "3694445628",
+										["Position"] = Vector(11.97705078125, -44.0087890625, 12.4228515625),
+										["Scale"] = Vector(1, 1, 3.2999999523163),
+										["Alpha"] = 0.075,
+										["ClassName"] = "model",
+										["Size"] = 0.275,
+										["EditorExpand"] = true,
+										["Color"] = Vector(255, 255, 0),
+										["Material"] = "models/ihvtest/eyeball_l",
+										["Model"] = "models/hunter/plates/plate1x1.mdl",
+										["Angles"] = Angle(45, 13.656464576721, 90.000030517578),
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Invert"] = true,
+										["UniqueID"] = "2991565288",
+										["Scale"] = Vector(1, 1, 3.2999999523163),
+										["Alpha"] = 0.375,
+										["ClassName"] = "model",
+										["Size"] = 0.375,
+										["Angles"] = Angle(45, 13.656464576721, 90.000030517578),
+										["Color"] = Vector(255, 89, 0),
+										["Material"] = "models/ihvtest/eyeball_l",
+										["Model"] = "models/hunter/plates/plate1x1.mdl",
+										["Position"] = Vector(11.97705078125, -44.0087890625, 12.4228515625),
+									},
+								},
+								[3] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Alpha"] = 0.125,
+										["ClassName"] = "model",
+										["UniqueID"] = "3942331337",
+										["Position"] = Vector(0, 0, 9.04736328125),
+										["Color"] = Vector(255, 255, 0),
+										["Material"] = "models/ihvtest/eyeball_l",
+										["Model"] = "models/hunter/tubes/tube2x2x05d.mdl",
+										["Scale"] = Vector(1, 1, 0.30000001192093),
+									},
+								},
+								[4] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Alpha"] = 0.375,
+										["ClassName"] = "model",
+										["UniqueID"] = "3186560892",
+										["Position"] = Vector(0, 0, 17.08544921875),
+										["Color"] = Vector(255, 89, 9),
+										["Material"] = "models/ihvtest/eyeball_l",
+										["Model"] = "models/hunter/tubes/tube2x2x05d.mdl",
+										["Scale"] = Vector(1, 1, 0.5),
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0.375,
+								["ClassName"] = "model",
+								["UniqueID"] = "3370859515",
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Color"] = Vector(255, 89, 0),
+								["Angles"] = Angle(0, 180, 0),
+								["Model"] = "models/hunter/tubes/tube2x2x05d.mdl",
+								["Scale"] = Vector(1, 1, 0.5),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 90,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "3581703993",
+								["Axis"] = "y",
+								["Function"] = "none",
+								["VariableName"] = "AngleOffset",
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Alpha"] = 0.375,
+										["ClassName"] = "model",
+										["UniqueID"] = "878147842",
+										["Position"] = Vector(0, 0, 17.08544921875),
+										["Color"] = Vector(255, 89, 9),
+										["Material"] = "models/ihvtest/eyeball_l",
+										["Model"] = "models/hunter/tubes/tube2x2x05d.mdl",
+										["Scale"] = Vector(1, 1, 0.5),
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["UniqueID"] = "4017935417",
+												["Model"] = "models/hunter/plates/plate1x1.mdl",
+												["Scale"] = Vector(1, 1, 0.0010000000474975),
+												["Alpha"] = 0.775,
+												["Angles"] = Angle(3.6518835599963e-007, -45, 3.6285382520873e-005),
+												["Size"] = 0.2,
+												["PositionOffset"] = Vector(0, 0, 3.5),
+												["ClassName"] = "model",
+												["Material"] = "https://puu.sh/vnhT2.png",
+												["Brightness"] = 23.1,
+												["Position"] = Vector(0.001953125, 0.002197265625, -1.6591796875),
+											},
+										},
+									},
+									["self"] = {
+										["UniqueID"] = "1005481148",
+										["Position"] = Vector(11.97705078125, -44.0087890625, 12.4228515625),
+										["Scale"] = Vector(1, 1, 3.2999999523163),
+										["Alpha"] = 0.075,
+										["ClassName"] = "model",
+										["Size"] = 0.275,
+										["EditorExpand"] = true,
+										["Color"] = Vector(255, 255, 0),
+										["Material"] = "models/ihvtest/eyeball_l",
+										["Model"] = "models/hunter/plates/plate1x1.mdl",
+										["Angles"] = Angle(45, 13.656464576721, 90.000030517578),
+									},
+								},
+								[3] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Alpha"] = 0.125,
+										["ClassName"] = "model",
+										["UniqueID"] = "159768668",
+										["Position"] = Vector(0, 0, 9.04736328125),
+										["Color"] = Vector(255, 255, 0),
+										["Material"] = "models/ihvtest/eyeball_l",
+										["Model"] = "models/hunter/tubes/tube2x2x05d.mdl",
+										["Scale"] = Vector(1, 1, 0.30000001192093),
+									},
+								},
+								[4] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Invert"] = true,
+										["UniqueID"] = "1876860840",
+										["Scale"] = Vector(1, 1, 3.2999999523163),
+										["Alpha"] = 0.375,
+										["ClassName"] = "model",
+										["Size"] = 0.375,
+										["Angles"] = Angle(45, 13.656464576721, 90.000030517578),
+										["Color"] = Vector(255, 89, 0),
+										["Material"] = "models/ihvtest/eyeball_l",
+										["Model"] = "models/hunter/plates/plate1x1.mdl",
+										["Position"] = Vector(11.97705078125, -44.0087890625, 12.4228515625),
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0.375,
+								["ClassName"] = "model",
+								["UniqueID"] = "2507064171",
+								["Color"] = Vector(255, 89, 0),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Model"] = "models/hunter/tubes/tube2x2x05d.mdl",
+								["Scale"] = Vector(1, 1, 0.5),
+							},
+						},
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["AngleOffset"] = Angle(0, 469114.1875, 0),
+						["UniqueID"] = "2057309351",
+						["Position"] = Vector(0, 0, 53.10595703125),
+						["EditorExpand"] = true,
+						["Bone"] = "",
+						["Model"] = "models/hunter/tubes/circle2x2.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "767823932",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "593446168",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["Damping"] = 500,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Mass"] = 50000,
+												["Radius"] = 50,
+												["EditorExpand"] = true,
+												["Position"] = Vector(-25.92138671875, 1.5234375, 0),
+												["Angles"] = Angle(0, -3.3682532310486, 0),
+												["Sphere"] = true,
+											},
+										},
+										[2] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "3828009188",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "3425001326",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-38.1640625, 59.998046875, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+										[3] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "64982544",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "841383094",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-18.44287109375, 29.99853515625, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+										[4] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "1247122274",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "3245126272",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-40.76513671875, -45.00048828125, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+										[5] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "2241144400",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "3384368854",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-41.08740234375, -70.0009765625, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+									},
+									["self"] = {
+										["UniqueID"] = "1607565899",
+										["Name"] = "pro",
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["Position"] = Vector(-76.69775390625, -77.6240234375, 54.80419921875),
+										["Angles"] = Angle(-4.6957552513049e-006, -130.95050048828, -3.2016512250266e-006),
+										["Bone"] = "",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "2754041898",
+								["Name"] = "tubexxd",
+								["Scale"] = Vector(4.9000000953674, 4.5999999046326, 1.5),
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["Angles"] = Angle(3.4757452011108, 37.784198760986, 1.3746031522751),
+								["Position"] = Vector(9.69677734375, 47.591796875, -2.54150390625),
+								["Color"] = Vector(0, 0, 0),
+								["Bone"] = "",
+								["Model"] = "models/hunter/tubes/tube1x1x1d.mdl",
+								["Material"] = "models/ihvtest/eyeball_l",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "4136300674",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "3224036352",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-40.76513671875, -45.00048828125, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+										[2] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "197348760",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "721225559",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-18.44287109375, 29.99853515625, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+										[3] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "732857033",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "1608292810",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["Damping"] = 500,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Mass"] = 50000,
+												["Radius"] = 50,
+												["EditorExpand"] = true,
+												["Position"] = Vector(-25.92138671875, 1.5234375, 0),
+												["Angles"] = Angle(0, -3.3682532310486, 0),
+												["Sphere"] = true,
+											},
+										},
+										[4] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "1809147288",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "1750292047",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-38.1640625, 59.998046875, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+										[5] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "610790330",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "770717173",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-41.08740234375, -70.0009765625, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+									},
+									["self"] = {
+										["UniqueID"] = "406631845",
+										["Name"] = "pro",
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["Position"] = Vector(-76.69775390625, -77.6240234375, 54.80419921875),
+										["Angles"] = Angle(-4.6957552513049e-006, -130.95050048828, -3.2016512250266e-006),
+										["Bone"] = "",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "3299802686",
+								["Name"] = "tubexxd",
+								["Scale"] = Vector(4.9000000953674, 4.5999999046326, 1.5),
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["Angles"] = Angle(-1.1339993476868, 123.83002471924, 3.5614151954651),
+								["Position"] = Vector(-54.720703125, 4.8291015625, 2.27880859375),
+								["Color"] = Vector(0, 0, 0),
+								["Bone"] = "",
+								["Model"] = "models/hunter/tubes/tube1x1x1d.mdl",
+								["Material"] = "models/ihvtest/eyeball_l",
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "4001016590",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "3938137199",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-18.44287109375, 29.99853515625, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+										[2] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "1277660516",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "1047388501",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-38.1640625, 59.998046875, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+										[3] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "1879149410",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "2878594052",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-40.76513671875, -45.00048828125, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+										[4] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "2266245716",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "2317929007",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["Damping"] = 500,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Mass"] = 50000,
+												["Radius"] = 50,
+												["EditorExpand"] = true,
+												["Position"] = Vector(-25.92138671875, 1.5234375, 0),
+												["Angles"] = Angle(0, -3.3682532310486, 0),
+												["Sphere"] = true,
+											},
+										},
+										[5] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "976121894",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "1692731765",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-41.08740234375, -70.0009765625, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+									},
+									["self"] = {
+										["UniqueID"] = "766607156",
+										["Name"] = "pro",
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["Position"] = Vector(-76.69775390625, -77.6240234375, 54.80419921875),
+										["Angles"] = Angle(-4.6957552513049e-006, -130.95050048828, -3.2016512250266e-006),
+										["Bone"] = "",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "68346959",
+								["Name"] = "tubexxd",
+								["Scale"] = Vector(4.9000000953674, 4.5999999046326, 1.5),
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["Angles"] = Angle(-3.5415081977844, -145.15338134766, -1.1947873830795),
+								["Position"] = Vector(-10.052734375, -49.1748046875, 0.46044921875),
+								["Color"] = Vector(0, 0, 0),
+								["Bone"] = "",
+								["Model"] = "models/hunter/tubes/tube1x1x1d.mdl",
+								["Material"] = "models/ihvtest/eyeball_l",
+							},
+						},
+						[4] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "2951054898",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "3328668829",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-40.76513671875, -45.00048828125, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+										[2] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "3391312029",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "3478349658",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-38.1640625, 59.998046875, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+										[3] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "312274790",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "1046495206",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-18.44287109375, 29.99853515625, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+										[4] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "3207091762",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "2126270724",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["Damping"] = 500,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Mass"] = 50000,
+												["Radius"] = 50,
+												["EditorExpand"] = true,
+												["Position"] = Vector(-25.92138671875, 1.5234375, 0),
+												["Angles"] = Angle(0, -3.3682532310486, 0),
+												["Sphere"] = true,
+											},
+										},
+										[5] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Event"] = "timer",
+														["Arguments"] = "0.2",
+														["UniqueID"] = "1701036226",
+														["ClassName"] = "event",
+													},
+												},
+											},
+											["self"] = {
+												["UniqueID"] = "897002899",
+												["Speed"] = 0,
+												["Physical"] = true,
+												["LifeTime"] = 1.2,
+												["ClassName"] = "projectile",
+												["Damping"] = 500,
+												["Radius"] = 50,
+												["Mass"] = 50000,
+												["Position"] = Vector(-41.08740234375, -70.0009765625, 0),
+												["Sphere"] = true,
+												["EditorExpand"] = true,
+											},
+										},
+									},
+									["self"] = {
+										["UniqueID"] = "3156467094",
+										["Name"] = "pro",
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["Position"] = Vector(-76.69775390625, -77.6240234375, 54.80419921875),
+										["Angles"] = Angle(-4.6957552513049e-006, -130.95050048828, -3.2016512250266e-006),
+										["Bone"] = "",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "1460908963",
+								["Angles"] = Angle(1.8021720647812, -45.014778137207, -3.2747087478638),
+								["Name"] = "tubexxd",
+								["Scale"] = Vector(4.9000000953674, 4.5999999046326, 1.5),
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["Position"] = Vector(48.60791015625, -7.0546875, -3.98583984375),
+								["Color"] = Vector(0, 0, 0),
+								["Bone"] = "",
+								["Model"] = "models/hunter/tubes/tube1x1x1d.mdl",
+								["Material"] = "models/ihvtest/eyeball_l",
+							},
+						},
+					},
+					["self"] = {
+						["Name"] = "Щит",
+						["ClassName"] = "group",
+						["UniqueID"] = "3221307186",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Arguments"] = "e",
+				["Invert"] = true,
+				["Event"] = "button",
+				["UniqueID"] = "412523198",
+				["EditorExpand"] = true,
+				["ClassName"] = "event",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2150097412",
+		["Name"] = "Healing",
+	},
+},

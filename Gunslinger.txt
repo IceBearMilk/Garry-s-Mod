@@ -1,0 +1,3669 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3949430253",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_357@@1",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Angles"] = Angle(180, -90, 6.1999998092651),
+				["UniqueID"] = "2226643011",
+				["Size"] = 1.425,
+				["Position"] = Vector(5.5, -1.1000000238419, -2.7000000476837),
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/s0m42uioj8njncy/Sapientia.obj?dl=0",
+				["Material"] = "https://dl.dropboxusercontent.com/s/yhid0nmh79o549o/Sapientia.png?dl=0",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3387322513",
+		["Name"] = "리볼버",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "332044342",
+				["Model"] = "models/pac/default.mdl",
+				["Size"] = 0.75,
+				["Bone"] = "",
+				["Name"] = "AT",
+				["Hide"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Arguments"] = "weapon_ar2@@1",
+						["Invert"] = true,
+						["UniqueID"] = "3345283967",
+						["Event"] = "weapon_class",
+						["Operator"] = "equal",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(38.138000488281, -5.7589998245239, -5.0859999656677),
+								["UniqueID"] = "463973535",
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["Angles"] = Angle(-65.724998474121, 29.074983596802, -131.80323791504),
+								["Size"] = -1,
+								["AngleOffset"] = Angle(180, 0, 0),
+								["Material"] = "https://dl.dropboxusercontent.com/s/e3fx13wbzdzl3co/Magnum%20Drill%20Expert.png?dl=0",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/9lv8fjg3k6g1g2h/Magnum%20Drill%20Expert1.obj?dl=0",
+								["Invert"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Event"] = "button",
+										["Arguments"] = "e",
+										["UniqueID"] = "3457367062",
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Position"] = Vector(38.138000488281, -5.7589998245239, -5.0859999656677),
+								["UniqueID"] = "462863827",
+								["ClassName"] = "model",
+								["Angles"] = Angle(-65.724998474121, 29.074983596802, -131.80323791504),
+								["Size"] = -1,
+								["AngleOffset"] = Angle(180, 0, 0),
+								["Material"] = "https://dl.dropboxusercontent.com/s/e3fx13wbzdzl3co/Magnum%20Drill%20Expert.png?dl=0",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/69ia71tb5174y8l/Magnum%20Drill%20Expert2.obj?dl=0",
+								["Invert"] = true,
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "3098702056",
+										["Event"] = "button",
+										["Arguments"] = "e",
+										["Invert"] = true,
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Expression"] = "sin(time()*100)^1*20",
+												["ClassName"] = "proxy",
+												["UniqueID"] = "2709128149",
+												["VariableName"] = "Angles",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, -90, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "2391927597",
+												["Position"] = Vector(0.029296875, -1.28271484375, 0.016357421875),
+											},
+										},
+									},
+									["self"] = {
+										["Invert"] = true,
+										["Angles"] = Angle(-18.472551345825, -90, 0),
+										["Size"] = -0.7,
+										["UniqueID"] = "3685712591",
+										["Bone"] = "right hand",
+										["Material"] = "https://www.dropbox.com/s/prg70r312jt5o2j/drill%20expert.png?dl=0",
+										["DoubleFace"] = true,
+										["PositionOffset"] = Vector(0, 39.700000762939, 27.10000038147),
+										["AngleOffset"] = Angle(180, 0, 0),
+										["Fullbright"] = true,
+										["Model"] = "https://www.dropbox.com/s/wx8vf76qcjr2x46/Drill3.obj?dl=0",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["AngleOffset"] = Angle(0, 0, -112),
+								["UniqueID"] = "3597182209",
+								["ClassName"] = "model",
+								["Position"] = Vector(33.53564453125, -3.9384765625, -3.4892578125),
+								["Model"] = "models/pac/default.mdl",
+								["Angles"] = Angle(16.364999771118, -20.489870071411, -6.0104246139526),
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "297646765",
+								["Event"] = "is_flashlight_on",
+								["EditorExpand"] = true,
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "1552920494",
+						["Alpha"] = 0,
+						["Angles"] = Angle(14.447957038879, 1.3068259954453, -83.962188720703),
+						["ClassName"] = "model",
+						["PositionOffset"] = Vector(-16.10000038147, 0, -8.5),
+						["AngleOffset"] = Angle(-21.89999961853, 0, 15.60000038147),
+						["Bone"] = "right hand",
+						["Model"] = "models/pac/default.mdl",
+						["Position"] = Vector(3.11572265625, -1.64306640625, -3.1669921875),
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "4188146252",
+								["Event"] = "button",
+								["Arguments"] = "e",
+								["Invert"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Event"] = "timer",
+										["Arguments"] = "0.1@@0.1",
+										["UniqueID"] = "3812426277",
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "219971108",
+								["Physical"] = true,
+								["Bone"] = "right hand",
+								["LifeTime"] = 0.1,
+								["ClassName"] = "projectile",
+								["Position"] = Vector(26.0029296875, 0.000244140625, -4.90625),
+								["Angles"] = Angle(4.0950975418091, 0.00013181769463699, -5.7349250710104e-05),
+								["OutfitPartUID"] = "332044342",
+								["OutfitPartName"] = "AT",
+								["Damage"] = 3000,
+								["Gravity"] = false,
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "3468628442",
+						["ClassName"] = "group",
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "3780538387",
+										["Event"] = "button",
+										["Arguments"] = "e",
+										["Invert"] = true,
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Expression"] = "sin(time()*100)^1*20",
+												["ClassName"] = "proxy",
+												["UniqueID"] = "83568459",
+												["VariableName"] = "Angles",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, -90, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "4056293919",
+												["Position"] = Vector(0.029296875, -1.28271484375, 0.016357421875),
+											},
+										},
+									},
+									["self"] = {
+										["Invert"] = true,
+										["Angles"] = Angle(1.0837979316711, -90, 0),
+										["Size"] = -0.7,
+										["UniqueID"] = "626487537",
+										["Bone"] = "right hand",
+										["Material"] = "https://www.dropbox.com/s/8miekbvowm6rmrr/Drill.png?dl=0",
+										["DoubleFace"] = true,
+										["PositionOffset"] = Vector(0, 39.700000762939, 27.10000038147),
+										["AngleOffset"] = Angle(180, 0, 0),
+										["Fullbright"] = true,
+										["Model"] = "https://www.dropbox.com/s/wx8vf76qcjr2x46/Drill3.obj?dl=0",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["AngleOffset"] = Angle(0, 0, -112),
+								["UniqueID"] = "1439074097",
+								["ClassName"] = "model",
+								["Position"] = Vector(33.304443359375, -4.52099609375, -3.829833984375),
+								["Model"] = "models/pac/default.mdl",
+								["Angles"] = Angle(20.082653045654, -11.70652961731, -6.1407318115234),
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Event"] = "button",
+										["Arguments"] = "e",
+										["UniqueID"] = "256068936",
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Position"] = Vector(38.707885742188, -5.52197265625, -5.4462890625),
+								["Material"] = "https://dl.dropboxusercontent.com/s/j0ch4uly9la6z9u/Magnum%20Drill.png?dl=0",
+								["Size"] = 0.925,
+								["Angles"] = Angle(-69.058250427246, -36.529106140137, 113.88507843018),
+								["DoubleFace"] = true,
+								["PositionOffset"] = Vector(-0.30000001192093, 0, 0.30000001192093),
+								["ClassName"] = "model",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/69ia71tb5174y8l/Magnum%20Drill%20Expert2.obj?dl=0",
+								["UniqueID"] = "910352348",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(38.723022460938, -5.576171875, -5.3583984375),
+								["UniqueID"] = "3403090623",
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["Angles"] = Angle(63.285419464111, -145.14530944824, -47.110473632813),
+								["Size"] = -1,
+								["AngleOffset"] = Angle(180, 0, 0),
+								["Material"] = "https://dl.dropboxusercontent.com/s/j0ch4uly9la6z9u/Magnum%20Drill.png?dl=0",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/9lv8fjg3k6g1g2h/Magnum%20Drill%20Expert1.obj?dl=0",
+								["Invert"] = true,
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "is_flashlight_on",
+								["EditorExpand"] = true,
+								["UniqueID"] = "3844328566",
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "153908103",
+						["Alpha"] = 0,
+						["Angles"] = Angle(2, 0, 90),
+						["ClassName"] = "model",
+						["PositionOffset"] = Vector(-16.10000038147, 0, -8.5),
+						["AngleOffset"] = Angle(-21.89999961853, 0, 15.60000038147),
+						["Bone"] = "right hand",
+						["Model"] = "models/pac/default.mdl",
+						["Position"] = Vector(3.7783203125, -1.96044921875, -0.69873046875),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "251128659",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3003261373",
+		["Name"] = "AR2",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1851521859",
+						["Event"] = "is_flashlight_on",
+						["EditorExpand"] = true,
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["UniqueID"] = "1488904337",
+										["Angles"] = Angle(180, 0, 0),
+									},
+								},
+							},
+							["self"] = {
+								["Model"] = "https://www.dropbox.com/s/rti8bt4xid7z0gq/Dual%20infinity2.obj?dl=0",
+								["Material"] = "https://dl.dropboxusercontent.com/s/ke2sp2caqcah3y5/dual%20infinity%20red2.png?dl=0",
+								["UniqueID"] = "3548710847",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "clip",
+								["UniqueID"] = "2881980389",
+								["Angles"] = Angle(180, 0, 0),
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(-5.9764156503661e-06, -93.230171203613, -179.99998474121),
+						["UniqueID"] = "3641926131",
+						["ClassName"] = "model",
+						["Position"] = Vector(0.728515625, -6.087890625, -0.255859375),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/u6lghblehnj7rh7/Dual%20infinity1.obj?dl=0",
+						["Material"] = "https://dl.dropboxusercontent.com/s/2uzayeyjylgthb0/dual%20infinity%20red1.png?dl=0",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["UniqueID"] = "807466106",
+										["Angles"] = Angle(180, 0, 0),
+									},
+								},
+							},
+							["self"] = {
+								["Model"] = "https://www.dropbox.com/s/rti8bt4xid7z0gq/Dual%20infinity2.obj?dl=0",
+								["Material"] = "https://dl.dropboxusercontent.com/s/4upjjr7j1oulw69/dual%20infinity%20gold2.png?dl=0",
+								["UniqueID"] = "894176726",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["EditorExpand"] = true,
+								["ClassName"] = "clip",
+								["UniqueID"] = "1458255260",
+								["Angles"] = Angle(180, 0, 0),
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["Position"] = Vector(-1.0751953125, 0, -1.35791015625),
+										["Bone"] = "left forearm",
+										["Angles"] = Angle(-51.566566467285, -1.2717940990115e-05, -1.4593424566556e-05),
+										["UniqueID"] = "2406773513",
+									},
+								},
+							},
+							["self"] = {
+								["Angles"] = Angle(-89.900001525879, 169.39999389648, 49),
+								["UniqueID"] = "52126456",
+								["PositionOffset"] = Vector(0, 0, -60.400001525879),
+								["Position"] = Vector(-0.5, 29.700000762939, 2.5),
+								["Model"] = "models/breen.mdl",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -83.930000305176, -179.99998474121),
+						["UniqueID"] = "2346127638",
+						["ClassName"] = "model",
+						["Position"] = Vector(0.8289999961853, -17.788000106812, -0.255859375),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/u6lghblehnj7rh7/Dual%20infinity1.obj?dl=0",
+						["Material"] = "https://dl.dropboxusercontent.com/s/ftc4sjoqiadom6g/dual%20infinity%20gold1.png?dl=0",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "707977914",
+				["ClassName"] = "group",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Arguments"] = "weapon_pistol@@1",
+				["Invert"] = true,
+				["UniqueID"] = "2468092657",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["EditorExpand"] = true,
+				["ClassName"] = "event",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "쌍권총 시점2",
+		["ClassName"] = "group",
+		["UniqueID"] = "1778387854",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "134966095",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_crossbow@@1",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(5.9190001487732, 0.10000000149012, -91.996002197266),
+				["Material"] = "https://dl.dropboxusercontent.com/s/4p7b9s962gguwvw/crossbow.png?dl=0",
+				["UniqueID"] = "1759157466",
+				["PositionOffset"] = Vector(-5, 0, -9.3999996185303),
+				["Position"] = Vector(3.7149999141693, -2.2690000534058, -11.5640001297),
+				["Bone"] = "bowr 1",
+				["Model"] = "https://www.dropbox.com/s/4a3neubuqd2hcts/Crossbow.obj?dl=0",
+				["ClassName"] = "model",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "bowl 1",
+						["UniqueID"] = "508684718",
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "1738994167",
+						["Bone"] = "crossbow base",
+						["Size"] = 0,
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "bowr 2",
+						["UniqueID"] = "986255869",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "bolt",
+						["UniqueID"] = "438857139",
+						["ClassName"] = "bone",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "bowl 2",
+						["UniqueID"] = "4011562040",
+						["ClassName"] = "bone",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.01,
+						["Bone"] = "bowr 1",
+						["UniqueID"] = "199860333",
+						["ClassName"] = "bone",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "pull",
+						["UniqueID"] = "3144302734",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "837368728",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "석궁 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "3424609787",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[5] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "810000446",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_crowbar@@1",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Run"] = "run_all_charging",
+				["ClassName"] = "holdtype",
+				["UniqueID"] = "1549141609",
+				["Walk"] = "walk_fist",
+				["EditorExpand"] = true,
+				["AttackStandPrimaryfire"] = "range_melee2_b",
+				["StandIdle"] = "idle_melee_angry",
+				["AttackCrouchPrimaryfire"] = "range_melee2_b",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "custom_animation",
+								["UniqueID"] = "3149293640",
+								["URL"] = "https://www.dropbox.com/s/mabvgp94zn25j5o/Dual%20Sword.txt?dl=0",
+								["Hide"] = true,
+								["AnimationType"] = "gesture",
+								["EditorExpand"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Hide"] = true,
+								["ClassName"] = "animation",
+								["UniqueID"] = "1315540060",
+								["SequenceName"] = "ragdoll",
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["UniqueID"] = "2230583715",
+														["Hide"] = true,
+														["Fullbright"] = true,
+														["Material"] = "https://dl.dropboxusercontent.com/s/z7g16xb7ohx4p1m/Dual%20sword2.png?dl=0",
+														["EditorExpand"] = true,
+														["Angles"] = Angle(180, -98.10570526123, -0.60000002384186),
+														["ClassName"] = "model",
+														["Bone"] = "right hand",
+														["Model"] = "https://www.dropbox.com/s/ypl2r3je1njblqj/Dual%20Sword%20F1.obj?dl=0",
+														["Position"] = Vector(3.6318359375, -1.65673828125, -4.796875),
+													},
+												},
+												[2] = {
+													["children"] = {
+													},
+													["self"] = {
+														["UniqueID"] = "1708619562",
+														["Hide"] = true,
+														["Material"] = "https://dl.dropboxusercontent.com/s/m75qp869ep1d32v/Dual%20sword1.png?dl=0",
+														["Fullbright"] = true,
+														["Angles"] = Angle(180, -98.10570526123, -0.60000002384186),
+														["ClassName"] = "model",
+														["Bone"] = "right hand",
+														["Model"] = "https://www.dropbox.com/s/gad4ems5dqe8jlq/Dual%20Sword%20F2.obj?dl=0",
+														["Position"] = Vector(3.6318359375, -1.65673828125, -4.796875),
+													},
+												},
+											},
+											["self"] = {
+												["Alpha"] = 0,
+												["Angles"] = Angle(-29.414266586304, -89.484031677246, 2.0022187232971),
+												["UniqueID"] = "2697136920",
+												["Position"] = Vector(-6.25244140625, 12.5869140625, 16.9541015625),
+												["Hide"] = true,
+												["Bone"] = "right hand",
+												["Model"] = "models/pac/default.mdl",
+												["ClassName"] = "model",
+											},
+										},
+										[2] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+															},
+															["self"] = {
+																["ClassName"] = "clip",
+																["UniqueID"] = "3597122616",
+																["Hide"] = true,
+																["Angles"] = Angle(0, -90, 0),
+																["Position"] = Vector(0.0087890625, -2.93310546875, -0.000244140625),
+															},
+														},
+														[2] = {
+															["children"] = {
+															},
+															["self"] = {
+																["ClassName"] = "clip",
+																["UniqueID"] = "2852184811",
+																["Hide"] = true,
+																["Angles"] = Angle(0, -90, 0),
+																["Position"] = Vector(0.001953125, -16.923828125, 0.000244140625),
+															},
+														},
+													},
+													["self"] = {
+														["UniqueID"] = "2724557696",
+														["Hide"] = true,
+														["Material"] = "https://dl.dropboxusercontent.com/s/z7g16xb7ohx4p1m/Dual%20sword2.png?dl=0",
+														["Bone"] = "pelvis",
+														["PositionOffset"] = Vector(0, 11.10000038147, -15.5),
+														["ClassName"] = "model",
+														["Fullbright"] = true,
+														["Model"] = "https://www.dropbox.com/s/emtchb4q40ila31/Dual%20Phantom2.obj?dl=0",
+														["Position"] = Vector(-7.5654296875, -0.0078125, 0.00244140625),
+													},
+												},
+												[2] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+															},
+															["self"] = {
+																["ClassName"] = "clip",
+																["UniqueID"] = "3751841594",
+																["Hide"] = true,
+																["Angles"] = Angle(0, -90, 0),
+																["Position"] = Vector(0.0087890625, -2.93310546875, -0.000244140625),
+															},
+														},
+														[2] = {
+															["children"] = {
+															},
+															["self"] = {
+																["ClassName"] = "clip",
+																["UniqueID"] = "3087362750",
+																["Hide"] = true,
+																["Angles"] = Angle(0, -90, 0),
+																["Position"] = Vector(0.001953125, -16.923828125, 0.000244140625),
+															},
+														},
+													},
+													["self"] = {
+														["UniqueID"] = "3737736485",
+														["Hide"] = true,
+														["Material"] = "https://dl.dropboxusercontent.com/s/m75qp869ep1d32v/Dual%20sword1.png?dl=0",
+														["Bone"] = "pelvis",
+														["PositionOffset"] = Vector(0, 11.10000038147, -15.5),
+														["ClassName"] = "model",
+														["Fullbright"] = true,
+														["Model"] = "https://www.dropbox.com/s/4sa8gd9uytqm5nq/Dual%20Phantom1.obj?dl=0",
+														["Position"] = Vector(-7.5654296875, -0.0078125, 0.00244140625),
+													},
+												},
+											},
+											["self"] = {
+												["Alpha"] = 0,
+												["Angles"] = Angle(5.5371103286743, 9.7337770462036, -28.361465454102),
+												["UniqueID"] = "3211628066",
+												["Position"] = Vector(11.73486328125, 12.1884765625, -17.4638671875),
+												["Hide"] = true,
+												["Model"] = "models/pac/default.mdl",
+												["ClassName"] = "model",
+											},
+										},
+										[3] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["UniqueID"] = "2384383453",
+														["Hide"] = true,
+														["Fullbright"] = true,
+														["Material"] = "https://dl.dropboxusercontent.com/s/z7g16xb7ohx4p1m/Dual%20sword2.png?dl=0",
+														["EditorExpand"] = true,
+														["Angles"] = Angle(180, -98.10570526123, -0.60000002384186),
+														["ClassName"] = "model",
+														["Bone"] = "right hand",
+														["Model"] = "https://www.dropbox.com/s/5yfav9u0elnxe6z/Dual%20Sword%20T1.obj?dl=0",
+														["Position"] = Vector(3.6318359375, -1.65673828125, -4.796875),
+													},
+												},
+												[2] = {
+													["children"] = {
+													},
+													["self"] = {
+														["UniqueID"] = "135248511",
+														["Hide"] = true,
+														["Material"] = "https://dl.dropboxusercontent.com/s/m75qp869ep1d32v/Dual%20sword1.png?dl=0",
+														["Fullbright"] = true,
+														["Angles"] = Angle(180, -98.10570526123, -0.60000002384186),
+														["ClassName"] = "model",
+														["Bone"] = "right hand",
+														["Model"] = "https://www.dropbox.com/s/kuhmjoswxxdyntx/Dual%20Sword%20T2.obj?dl=0",
+														["Position"] = Vector(3.6318359375, -1.65673828125, -4.796875),
+													},
+												},
+											},
+											["self"] = {
+												["Alpha"] = 0,
+												["Angles"] = Angle(28.919082641602, 103.66110992432, 8.4220037460327),
+												["UniqueID"] = "2489649312",
+												["Position"] = Vector(7.70166015625, 4.87109375, 21.03466796875),
+												["Hide"] = true,
+												["Bone"] = "left hand",
+												["Model"] = "models/pac/default.mdl",
+												["ClassName"] = "model",
+											},
+										},
+										[4] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+															},
+															["self"] = {
+																["ClassName"] = "clip",
+																["UniqueID"] = "1662884760",
+																["Hide"] = true,
+																["Angles"] = Angle(0, -90, 0),
+																["Position"] = Vector(0.0087890625, -2.93310546875, -0.000244140625),
+															},
+														},
+														[2] = {
+															["children"] = {
+															},
+															["self"] = {
+																["ClassName"] = "clip",
+																["UniqueID"] = "3394885065",
+																["Hide"] = true,
+																["Angles"] = Angle(0, 90, 0),
+																["Position"] = Vector(0.001953125, -16.923828125, 0.000244140625),
+															},
+														},
+													},
+													["self"] = {
+														["UniqueID"] = "1262390304",
+														["Hide"] = true,
+														["Material"] = "https://dl.dropboxusercontent.com/s/z7g16xb7ohx4p1m/Dual%20sword2.png?dl=0",
+														["Bone"] = "pelvis",
+														["PositionOffset"] = Vector(0, 11.10000038147, -15.5),
+														["ClassName"] = "model",
+														["Fullbright"] = true,
+														["Model"] = "https://www.dropbox.com/s/emtchb4q40ila31/Dual%20Phantom2.obj?dl=0",
+														["Position"] = Vector(-7.5650000572205, -0.0080000003799796, 0.0020000000949949),
+													},
+												},
+												[2] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+															},
+															["self"] = {
+																["ClassName"] = "clip",
+																["UniqueID"] = "824436742",
+																["Hide"] = true,
+																["Angles"] = Angle(0, -90, 0),
+																["Position"] = Vector(0.0087890625, -2.93310546875, -0.000244140625),
+															},
+														},
+														[2] = {
+															["children"] = {
+															},
+															["self"] = {
+																["ClassName"] = "clip",
+																["UniqueID"] = "2896842881",
+																["Hide"] = true,
+																["Angles"] = Angle(0, 90, 0),
+																["Position"] = Vector(0.001953125, -16.923828125, 0.000244140625),
+															},
+														},
+													},
+													["self"] = {
+														["UniqueID"] = "1568957083",
+														["Hide"] = true,
+														["Material"] = "https://dl.dropboxusercontent.com/s/m75qp869ep1d32v/Dual%20sword1.png?dl=0",
+														["Bone"] = "pelvis",
+														["PositionOffset"] = Vector(0, 11.10000038147, -15.5),
+														["ClassName"] = "model",
+														["Fullbright"] = true,
+														["Model"] = "https://www.dropbox.com/s/4sa8gd9uytqm5nq/Dual%20Phantom1.obj?dl=0",
+														["Position"] = Vector(-7.5650000572205, -0.0080000003799796, 0.00244140625),
+													},
+												},
+											},
+											["self"] = {
+												["Alpha"] = 0,
+												["Angles"] = Angle(-2.2198115402716e-05, -180, 28.453405380249),
+												["UniqueID"] = "2838281649",
+												["Position"] = Vector(-15.09814453125, -4.42578125, -8.13623046875),
+												["Hide"] = true,
+												["Model"] = "models/pac/default.mdl",
+												["ClassName"] = "model",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["Angles"] = Angle(-8.5377365621753e-07, 180, 58.905448913574),
+										["UniqueID"] = "3421034656",
+										["Position"] = Vector(-1.353515625, -2.5498046875, -0.60467529296875),
+										["Hide"] = true,
+										["Bone"] = "pelvis",
+										["Model"] = "models/pac/default.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "proxy",
+								["UniqueID"] = "3808525843",
+								["AffectChildren"] = true,
+								["Hide"] = true,
+								["Expression"] = "floor((min(0.55,timeex()))/0.55)",
+								["VariableName"] = "Hide",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "proxy",
+						["UniqueID"] = "2163973864",
+						["AffectChildren"] = true,
+						["Expression"] = "floor((min(1,timeex()))/1)",
+						["VariableName"] = "Hide",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3424730593",
+				["ClassName"] = "group",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "48846031",
+								["Position"] = Vector(3.6318359375, -1.65673828125, -4.796875),
+								["EditorExpand"] = true,
+								["Angles"] = Angle(180, -98.10570526123, -0.60000002384186),
+								["ClassName"] = "model",
+								["Fullbright"] = true,
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/5yfav9u0elnxe6z/Dual%20Sword%20T1.obj?dl=0",
+								["Material"] = "https://dl.dropboxusercontent.com/s/z7g16xb7ohx4p1m/Dual%20sword2.png?dl=0",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Material"] = "https://dl.dropboxusercontent.com/s/m75qp869ep1d32v/Dual%20sword1.png?dl=0",
+								["UniqueID"] = "904503343",
+								["Position"] = Vector(3.6318359375, -1.65673828125, -4.796875),
+								["Bone"] = "right hand",
+								["Fullbright"] = true,
+								["Model"] = "https://www.dropbox.com/s/kuhmjoswxxdyntx/Dual%20Sword%20T2.obj?dl=0",
+								["Angles"] = Angle(180, -98.10570526123, -0.60000002384186),
+							},
+						},
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["Angles"] = Angle(7.1330456733704, 5.2486411732389e-05, 179.99995422363),
+						["UniqueID"] = "1255878541",
+						["Position"] = Vector(-0.74099999666214, -3.3125, -0.39399999380112),
+						["Bone"] = "left hand",
+						["Model"] = "models/pac/default.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "1600749108",
+								["Position"] = Vector(3.6318359375, -1.65673828125, -4.796875),
+								["EditorExpand"] = true,
+								["Angles"] = Angle(180, -98.10570526123, -0.60000002384186),
+								["ClassName"] = "model",
+								["Fullbright"] = true,
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/ypl2r3je1njblqj/Dual%20Sword%20F1.obj?dl=0",
+								["Material"] = "https://dl.dropboxusercontent.com/s/z7g16xb7ohx4p1m/Dual%20sword2.png?dl=0",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Material"] = "https://dl.dropboxusercontent.com/s/m75qp869ep1d32v/Dual%20sword1.png?dl=0",
+								["UniqueID"] = "2193668774",
+								["Position"] = Vector(3.6318359375, -1.65673828125, -4.796875),
+								["Bone"] = "right hand",
+								["Fullbright"] = true,
+								["Model"] = "https://www.dropbox.com/s/gad4ems5dqe8jlq/Dual%20Sword%20F2.obj?dl=0",
+								["Angles"] = Angle(180, -98.10570526123, -0.60000002384186),
+							},
+						},
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "1630370928",
+						["Bone"] = "right hand",
+						["Model"] = "models/pac/default.mdl",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, -90, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "1430348939",
+												["Position"] = Vector(0.0087890625, -2.93310546875, -0.000244140625),
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, -90, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "1546849705",
+												["Position"] = Vector(0.001953125, -16.923828125, 0.000244140625),
+											},
+										},
+									},
+									["self"] = {
+										["Bone"] = "pelvis",
+										["Material"] = "https://dl.dropboxusercontent.com/s/z7g16xb7ohx4p1m/Dual%20sword2.png?dl=0",
+										["UniqueID"] = "160800885",
+										["PositionOffset"] = Vector(0, 11.10000038147, -15.5),
+										["Position"] = Vector(-7.5654296875, -0.0078125, 0.00244140625),
+										["Fullbright"] = true,
+										["Model"] = "https://www.dropbox.com/s/emtchb4q40ila31/Dual%20Phantom2.obj?dl=0",
+										["ClassName"] = "model",
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, -90, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "241766650",
+												["Position"] = Vector(0.0087890625, -2.93310546875, -0.000244140625),
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, -90, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "1088706278",
+												["Position"] = Vector(0.001953125, -16.923828125, 0.000244140625),
+											},
+										},
+									},
+									["self"] = {
+										["Bone"] = "pelvis",
+										["Material"] = "https://dl.dropboxusercontent.com/s/m75qp869ep1d32v/Dual%20sword1.png?dl=0",
+										["UniqueID"] = "444579445",
+										["PositionOffset"] = Vector(0, 11.10000038147, -15.5),
+										["Position"] = Vector(-7.5654296875, -0.0078125, 0.00244140625),
+										["Fullbright"] = true,
+										["Model"] = "https://www.dropbox.com/s/4sa8gd9uytqm5nq/Dual%20Phantom1.obj?dl=0",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["Angles"] = Angle(5.5371103286743, 9.7337770462036, -28.361465454102),
+								["UniqueID"] = "351894651",
+								["Position"] = Vector(11.73486328125, 12.1884765625, -17.4638671875),
+								["Model"] = "models/pac/default.mdl",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, -90, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "1756499010",
+												["Position"] = Vector(0.0087890625, -2.93310546875, -0.000244140625),
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, 90, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "1603030408",
+												["Position"] = Vector(0.001953125, -16.923828125, 0.000244140625),
+											},
+										},
+									},
+									["self"] = {
+										["Bone"] = "pelvis",
+										["Material"] = "https://dl.dropboxusercontent.com/s/z7g16xb7ohx4p1m/Dual%20sword2.png?dl=0",
+										["UniqueID"] = "1819009213",
+										["PositionOffset"] = Vector(0, 11.10000038147, -15.5),
+										["Position"] = Vector(-7.5650000572205, -0.0080000003799796, 0.0020000000949949),
+										["Fullbright"] = true,
+										["Model"] = "https://www.dropbox.com/s/emtchb4q40ila31/Dual%20Phantom2.obj?dl=0",
+										["ClassName"] = "model",
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, -90, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "282804064",
+												["Position"] = Vector(0.0087890625, -2.93310546875, -0.000244140625),
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, 90, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "2893211528",
+												["Position"] = Vector(0.001953125, -16.923828125, 0.000244140625),
+											},
+										},
+									},
+									["self"] = {
+										["Bone"] = "pelvis",
+										["Material"] = "https://dl.dropboxusercontent.com/s/m75qp869ep1d32v/Dual%20sword1.png?dl=0",
+										["UniqueID"] = "293545705",
+										["PositionOffset"] = Vector(0, 11.10000038147, -15.5),
+										["Position"] = Vector(-7.5650000572205, -0.0080000003799796, 0.00244140625),
+										["Fullbright"] = true,
+										["Model"] = "https://www.dropbox.com/s/4sa8gd9uytqm5nq/Dual%20Phantom1.obj?dl=0",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["Angles"] = Angle(-2.2198115402716e-05, -180, 28.453405380249),
+								["UniqueID"] = "1058809808",
+								["Position"] = Vector(-15.09814453125, -4.42578125, -8.13623046875),
+								["Model"] = "models/pac/default.mdl",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["Angles"] = Angle(-6.8301883402455e-06, 180, 56.621574401855),
+						["UniqueID"] = "1585846427",
+						["Position"] = Vector(-0.2119140625, -2.4033203125, 2.0755615234375),
+						["Bone"] = "pelvis",
+						["Model"] = "models/pac/default.mdl",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "proxy",
+				["UniqueID"] = "1395541064",
+				["AffectChildren"] = true,
+				["Expression"] = "(floor((min(0.55,timeex()))/0.55)*(-0.55))+0.55",
+				["VariableName"] = "Hide",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Material"] = "https://dl.dropboxusercontent.com/s/z7g16xb7ohx4p1m/Dual%20sword2.png?dl=0",
+				["UniqueID"] = "1131570872",
+				["Hide"] = true,
+				["Model"] = "https://www.dropbox.com/s/zbv5qv5sdy43agt/Dual%20Phantom.obj?dl=0",
+				["ClassName"] = "model",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "1053754229",
+		["Name"] = "검",
+	},
+},
+[6] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(0.390869140625, -2.8778076171875, 0.2451171875),
+						["Material"] = "https://dl.dropboxusercontent.com/s/4z2ztoe1iaybwb0/Chain%20Grenade.png?dl=0",
+						["Angles"] = Angle(-75.660934448242, 123.37744140625, -27.125247955322),
+						["AngleOffset"] = Angle(0, -21.39999961853, 30.799999237061),
+						["PositionOffset"] = Vector(-20.799999237061, 6.4000000953674, 0),
+						["ClassName"] = "model",
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/52lj1vzpo6digw5/Chain%20Grenade.obj?dl=0",
+						["UniqueID"] = "2030238921",
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "2074145015",
+				["PositionOffset"] = Vector(-3.5999999046326, 1.2999999523163, 0),
+				["Position"] = Vector(-0.0029296875, 0.879638671875, 0.00018310546875),
+				["Model"] = "models/pac/default.mdl",
+				["Angles"] = Angle(90, 10.300000190735, 0),
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["HideEntity"] = true,
+				["UniqueID"] = "1715204591",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "수류탄 던지기",
+		["ClassName"] = "group",
+		["UniqueID"] = "4159019678",
+		["OwnerName"] = "frag",
+	},
+},
+[7] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Angles"] = Angle(180, -101.09999847412, 2.5999999046326),
+				["UniqueID"] = "1933473086",
+				["Size"] = 1.425,
+				["Position"] = Vector(5, -2.2000000476837, -1.8999999761581),
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/s0m42uioj8njncy/Sapientia.obj?dl=0",
+				["Material"] = "https://dl.dropboxusercontent.com/s/yhid0nmh79o549o/Sapientia.png?dl=0",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "380456045",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_357@@1",
+				["Invert"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "1591072541",
+						["Bone"] = "bullet 1",
+						["Size"] = 0,
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "934690611",
+						["Bone"] = "bullet 6",
+						["Size"] = 0,
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "1865798649",
+						["Bone"] = "cylinder",
+						["Size"] = 0,
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "265845288",
+						["Bone"] = "bullet 3",
+						["Size"] = 0,
+						["ClassName"] = "bone",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "3009240478",
+						["Bone"] = "python",
+						["Size"] = 0,
+						["ClassName"] = "bone",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "3635281021",
+						["Bone"] = "bullet 5",
+						["Size"] = 0,
+						["ClassName"] = "bone",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "3404971876",
+						["Bone"] = "bullet 4",
+						["Size"] = 0,
+						["ClassName"] = "bone",
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "1373443943",
+						["Bone"] = "bullet 2",
+						["Size"] = 0,
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2790717287",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "리볼버 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "2492328476",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[8] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1282013287",
+						["Event"] = "is_flashlight_on",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "https://dl.dropboxusercontent.com/s/m2ydh1tr774d65p/Storm%20Giant1.png?dl=0",
+								["UniqueID"] = "3473401451",
+								["EditorExpand"] = true,
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/p99xafy28moa0ux/Storm%20Giant2.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "https://dl.dropboxusercontent.com/s/97qypfy64d3u1l2/Storm%20Giant2.png?dl=0",
+								["UniqueID"] = "900110541",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/t015v3ye20euxth/Storm%20Giant1.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Angles"] = Angle(0, 180, 0),
+								["UniqueID"] = "3659291568",
+								["EditorExpand"] = true,
+								["Position"] = Vector(-0.40000000596046, 0.69999998807907, 0),
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/iw7u4o1klprhts3/Storm%20Giant3.obj?dl=0",
+								["Material"] = "https://dl.dropboxusercontent.com/s/97qypfy64d3u1l2/Storm%20Giant2.png?dl=0",
+							},
+						},
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["Angles"] = Angle(180, 68.5, 7.4000000953674),
+						["UniqueID"] = "2077119976",
+						["Position"] = Vector(2.2999999523163, -0.69999998807907, 4.1999998092651),
+						["Bone"] = "right hand",
+						["Model"] = "models/pac/default.mdl",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1481707929",
+				["ClassName"] = "group",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_flashlight_on",
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["UniqueID"] = "2601017103",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "https://dl.dropboxusercontent.com/s/93xidujgushlyrf/storm%20giant%20tw2.png?dl=0",
+								["UniqueID"] = "4180186852",
+								["EditorExpand"] = true,
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/ka85dkvft5ymacg/Storm%20Giant%20tw1.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Angles"] = Angle(0, 180, 0),
+								["UniqueID"] = "3185516806",
+								["EditorExpand"] = true,
+								["Position"] = Vector(-0.40000000596046, 0.69999998807907, 0),
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/kutcfrx7optibdf/Storm%20Giant%20tw3.obj?dl=0",
+								["Material"] = "https://dl.dropboxusercontent.com/s/93xidujgushlyrf/storm%20giant%20tw2.png?dl=0",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "https://dl.dropboxusercontent.com/s/oaztlbmnmuarm9a/storm%20giant%20tw1.png?dl=0",
+								["UniqueID"] = "752613686",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/fg4zxt4df3u6tkl/Storm%20Giant%20tw2.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["Angles"] = Angle(180, 68.5, 7.4000000953674),
+						["UniqueID"] = "1747696676",
+						["Position"] = Vector(2.2999999523163, -0.69999998807907, 4.1999998092651),
+						["Bone"] = "right hand",
+						["Model"] = "models/pac/default.mdl",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "483686429",
+				["ClassName"] = "group",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3904025091",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_stunstick@@1",
+				["Invert"] = true,
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Walk"] = "walk_melee2",
+				["UniqueID"] = "978307047",
+				["ActRangeAttack1"] = "aimlayer_melee2",
+				["Jump"] = "jump_melee2",
+				["AttackStandPrimaryfire"] = "range_melee2_b",
+				["Run"] = "run_melee2",
+				["ClassName"] = "holdtype",
+				["Air"] = "jump_melee2",
+				["CrouchWalk"] = "cwalk_melee2",
+				["CrouchIdle"] = "cidle_melee2",
+				["Noclip"] = "jump_melee2",
+				["StandIdle"] = "idle_melee2",
+				["AttackCrouchPrimaryfire"] = "range_melee2_b",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2723070128",
+		["Name"] = "스턴스틱",
+	},
+},
+[9] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(3.576171875, -2.673828125, -0.2032470703125),
+				["Material"] = "https://dl.dropboxusercontent.com/s/4z2ztoe1iaybwb0/Chain%20Grenade.png?dl=0",
+				["Angles"] = Angle(-16.543174743652, 20.749280929565, 75.642669677734),
+				["AngleOffset"] = Angle(0, -21.39999961853, 30.799999237061),
+				["PositionOffset"] = Vector(-20.799999237061, 6.4000000953674, 0),
+				["ClassName"] = "model",
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/52lj1vzpo6digw5/Chain%20Grenade.obj?dl=0",
+				["UniqueID"] = "2544506608",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2286276044",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_frag@@1",
+				["Invert"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0,
+				["Bone"] = "grenade body",
+				["UniqueID"] = "3357283110",
+				["ClassName"] = "bone",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "수류탄 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "1667298291",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[10] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2419615961",
+				["Event"] = "is_flashlight_on",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Walk"] = "walk_dual",
+						["UniqueID"] = "2496475862",
+						["ReloadStand"] = "reload_dual",
+						["Jump"] = "jump_dual",
+						["AttackStandPrimaryfire"] = "range_dual_l",
+						["CrouchWalk"] = "cwalk_dual",
+						["Run"] = "run_dual",
+						["ClassName"] = "holdtype",
+						["ReloadCrouch"] = "reload_dual_original",
+						["Noclip"] = "jump_dual",
+						["CrouchIdle"] = "cidle_dual",
+						["EditorExpand"] = true,
+						["StandIdle"] = "idle_dual",
+						["AttackCrouchPrimaryfire"] = "range_dual_r",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "clip",
+								["UniqueID"] = "1844106729",
+								["Angles"] = Angle(180, 0, 0),
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(0, 180, -90),
+						["UniqueID"] = "2505296378",
+						["ClassName"] = "model",
+						["Position"] = Vector(-4.8699998855591, -11.380000114441, -17.398000717163),
+						["Bone"] = "left hand",
+						["Model"] = "https://www.dropbox.com/s/docpi52eku5kj38/Dual%20infinite.obj?dl=0",
+						["Material"] = "https://dl.dropboxusercontent.com/s/ml2skzb286h3qaz/Dual%20infinite%20W.png?dl=0",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "clip",
+								["UniqueID"] = "2744901010",
+								["Angles"] = Angle(180, 0, 0),
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(0, 180, 90),
+						["UniqueID"] = "3854928519",
+						["ClassName"] = "model",
+						["Position"] = Vector(-4.8699998855591, 8.1201171875, 17.3017578125),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/docpi52eku5kj38/Dual%20infinite.obj?dl=0",
+						["Material"] = "https://dl.dropboxusercontent.com/s/pd7mqmt35uutm2r/Dual%20infinite%20B.png?dl=0",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1107052851",
+						["Event"] = "weapon_class",
+						["Operator"] = "equal",
+						["Arguments"] = "weapon_pistol@@1",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3292398016",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "쌍권총1",
+		["ClassName"] = "group",
+		["UniqueID"] = "3493517182",
+		["Description"] = "나에게 파트를 추가하세요!",
+	},
+},
+[11] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Angles"] = Angle(0.40000000596046, 179.5, 101.19999694824),
+						["UniqueID"] = "3037438612",
+						["EditorExpand"] = true,
+						["Position"] = Vector(-6, 11.199999809265, 14.800000190735),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/docpi52eku5kj38/Dual%20infinite.obj?dl=0",
+						["Material"] = "https://dl.dropboxusercontent.com/s/ml2skzb286h3qaz/Dual%20infinite%20W.png?dl=0",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3645097572",
+						["Event"] = "is_flashlight_on",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "clip",
+								["UniqueID"] = "3834096529",
+								["EditorExpand"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["Position"] = Vector(-1.0751953125, 0, -1.35791015625),
+										["Bone"] = "left forearm",
+										["Angles"] = Angle(-51.566566467285, -1.2717940990115e-05, -1.4593424566556e-05),
+										["UniqueID"] = "235675396",
+									},
+								},
+							},
+							["self"] = {
+								["Angles"] = Angle(3.9000000953674, -101.60000610352, 47.599998474121),
+								["UniqueID"] = "3741211689",
+								["PositionOffset"] = Vector(0, 0, -60.400001525879),
+								["Position"] = Vector(-23.10000038147, -9, -7.9000000953674),
+								["Model"] = "models/breen.mdl",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(3.5, 7.6999998092651, 94.5),
+						["UniqueID"] = "3139952420",
+						["ClassName"] = "model",
+						["Position"] = Vector(-4.5320000648499, -20.377000808716, 13.142000198364),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/docpi52eku5kj38/Dual%20infinite.obj?dl=0",
+						["Material"] = "https://dl.dropboxusercontent.com/s/ml2skzb286h3qaz/Dual%20infinite%20W.png?dl=0",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0.40000000596046, 179.5, 101.19999694824),
+						["UniqueID"] = "3179438858",
+						["ClassName"] = "model",
+						["Position"] = Vector(-6, 0.60000002384186, 14.300000190735),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/docpi52eku5kj38/Dual%20infinite.obj?dl=0",
+						["Material"] = "https://dl.dropboxusercontent.com/s/pd7mqmt35uutm2r/Dual%20infinite%20B.png?dl=0",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2498655685",
+				["ClassName"] = "group",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "135051721",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_pistol@@1",
+				["Invert"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "square",
+						["UniqueID"] = "3833354660",
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "2257550437",
+						["Bone"] = "right hand",
+						["Size"] = 0.01,
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "clip",
+						["UniqueID"] = "317094640",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "798718179",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "쌍권총 시점1",
+		["ClassName"] = "group",
+		["UniqueID"] = "113497065",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[12] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Size"] = 0,
+								["Bone"] = "shell 2",
+								["UniqueID"] = "4006443668",
+								["ClassName"] = "bone",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Size"] = 0,
+								["Bone"] = "bolt 1",
+								["UniqueID"] = "1145692034",
+								["ClassName"] = "bone",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Size"] = 0,
+								["Bone"] = "shell 1",
+								["UniqueID"] = "3069574130",
+								["ClassName"] = "bone",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Size"] = 0,
+								["Bone"] = "bolt 2",
+								["UniqueID"] = "1901579286",
+								["ClassName"] = "bone",
+							},
+						},
+						[5] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Size"] = 0,
+								["Bone"] = "reload 2",
+								["UniqueID"] = "3984449590",
+								["ClassName"] = "bone",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "1184374781",
+						["ClassName"] = "group",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "2655953201",
+										["Event"] = "button",
+										["Arguments"] = "e",
+										["Invert"] = true,
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Expression"] = "sin(time()*100)^1*20",
+												["ClassName"] = "proxy",
+												["UniqueID"] = "1398644684",
+												["VariableName"] = "Angles",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, -90, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "1485559574",
+												["Position"] = Vector(0.029296875, -1.28271484375, 0.016357421875),
+											},
+										},
+									},
+									["self"] = {
+										["Invert"] = true,
+										["Model"] = "https://www.dropbox.com/s/wx8vf76qcjr2x46/Drill3.obj?dl=0",
+										["Size"] = -0.7,
+										["UniqueID"] = "1605239096",
+										["AngleOffset"] = Angle(180, 0, 0),
+										["Material"] = "https://dl.dropboxusercontent.com/s/8miekbvowm6rmrr/Drill.png?dl=0",
+										["ClassName"] = "model",
+										["DoubleFace"] = true,
+										["PositionOffset"] = Vector(0, 39.700000762939, 27.10000038147),
+										["Brightness"] = 2.2,
+										["Bone"] = "right hand",
+										["Translucent"] = true,
+										["Angles"] = Angle(1.0837979316711, -90, 0),
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["AngleOffset"] = Angle(0, 0, -112),
+								["UniqueID"] = "4008481553",
+								["ClassName"] = "model",
+								["Position"] = Vector(33.304443359375, -4.52099609375, -3.829833984375),
+								["Model"] = "models/pac/default.mdl",
+								["Angles"] = Angle(20.082653045654, -11.70652961731, -6.1407318115234),
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Event"] = "button",
+										["Arguments"] = "e",
+										["UniqueID"] = "3898997210",
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Position"] = Vector(38.707885742188, -5.52197265625, -5.4462890625),
+								["Material"] = "https://dl.dropboxusercontent.com/s/j0ch4uly9la6z9u/Magnum%20Drill.png?dl=0",
+								["Size"] = 0.925,
+								["Angles"] = Angle(-69.058250427246, -36.529106140137, 113.88507843018),
+								["DoubleFace"] = true,
+								["PositionOffset"] = Vector(-0.30000001192093, 0, 0.30000001192093),
+								["ClassName"] = "model",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/69ia71tb5174y8l/Magnum%20Drill%20Expert2.obj?dl=0",
+								["UniqueID"] = "1993038862",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(38.723022460938, -5.576171875, -5.3583984375),
+								["UniqueID"] = "23853040",
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["Angles"] = Angle(63.285419464111, -145.14530944824, -47.110473632813),
+								["Size"] = -1,
+								["AngleOffset"] = Angle(180, 0, 0),
+								["Material"] = "https://dl.dropboxusercontent.com/s/j0ch4uly9la6z9u/Magnum%20Drill.png?dl=0",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/9lv8fjg3k6g1g2h/Magnum%20Drill%20Expert1.obj?dl=0",
+								["Invert"] = true,
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "is_flashlight_on",
+								["EditorExpand"] = true,
+								["UniqueID"] = "1094136353",
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "362460477",
+						["Alpha"] = 0,
+						["Angles"] = Angle(2, 0, 97.599998474121),
+						["ClassName"] = "model",
+						["PositionOffset"] = Vector(-16.10000038147, 0, -8.5),
+						["AngleOffset"] = Angle(-21.89999961853, 0, 15.60000038147),
+						["Bone"] = "right hand",
+						["Model"] = "models/pac/default.mdl",
+						["Position"] = Vector(3.2780001163483, -1.1599999666214, -1.1990000009537),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "4002229867",
+						["Event"] = "weapon_class",
+						["Operator"] = "equal",
+						["Arguments"] = "weapon_ar2@@1",
+						["Invert"] = true,
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(38.138000488281, -5.7589998245239, -5.0859999656677),
+								["UniqueID"] = "729126276",
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["Angles"] = Angle(-65.724998474121, 29.074983596802, -131.80323791504),
+								["Size"] = -1,
+								["AngleOffset"] = Angle(180, 0, 0),
+								["Material"] = "https://dl.dropboxusercontent.com/s/e3fx13wbzdzl3co/Magnum%20Drill%20Expert.png?dl=0",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/9lv8fjg3k6g1g2h/Magnum%20Drill%20Expert1.obj?dl=0",
+								["Invert"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Event"] = "button",
+										["Arguments"] = "e",
+										["UniqueID"] = "2354214004",
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Position"] = Vector(38.138000488281, -5.7589998245239, -5.0859999656677),
+								["UniqueID"] = "1067139229",
+								["ClassName"] = "model",
+								["Angles"] = Angle(-65.724998474121, 29.074983596802, -131.80323791504),
+								["Size"] = -1,
+								["AngleOffset"] = Angle(180, 0, 0),
+								["Material"] = "https://dl.dropboxusercontent.com/s/e3fx13wbzdzl3co/Magnum%20Drill%20Expert.png?dl=0",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/69ia71tb5174y8l/Magnum%20Drill%20Expert2.obj?dl=0",
+								["Invert"] = true,
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "3264850237",
+										["Event"] = "button",
+										["Arguments"] = "e",
+										["Invert"] = true,
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Expression"] = "sin(time()*100)^1*20",
+												["ClassName"] = "proxy",
+												["UniqueID"] = "3079957105",
+												["VariableName"] = "Angles",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, -90, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "3580875484",
+												["Position"] = Vector(0.029296875, -1.28271484375, 0.016357421875),
+											},
+										},
+									},
+									["self"] = {
+										["Invert"] = true,
+										["Angles"] = Angle(-18.472551345825, -90, 0),
+										["Size"] = -0.7,
+										["UniqueID"] = "3275773633",
+										["Bone"] = "right hand",
+										["Material"] = "https://dl.dropboxusercontent.com/s/prg70r312jt5o2j/drill%20expert.png?dl=0",
+										["DoubleFace"] = true,
+										["PositionOffset"] = Vector(0, 39.700000762939, 27.10000038147),
+										["AngleOffset"] = Angle(180, 0, 0),
+										["Fullbright"] = true,
+										["Model"] = "https://www.dropbox.com/s/wx8vf76qcjr2x46/Drill3.obj?dl=0",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["AngleOffset"] = Angle(0, 0, -112),
+								["UniqueID"] = "2872394780",
+								["ClassName"] = "model",
+								["Position"] = Vector(33.53564453125, -3.9384765625, -3.4892578125),
+								["Model"] = "models/pac/default.mdl",
+								["Angles"] = Angle(16.364999771118, -20.489870071411, -6.0104246139526),
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "3454084167",
+								["Event"] = "is_flashlight_on",
+								["EditorExpand"] = true,
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "2064808314",
+						["Alpha"] = 0,
+						["Angles"] = Angle(17.89999961853, 0, -85.361999511719),
+						["ClassName"] = "model",
+						["PositionOffset"] = Vector(-16.10000038147, 0, -8.5),
+						["AngleOffset"] = Angle(-21.89999961853, 0, 15.60000038147),
+						["Bone"] = "right hand",
+						["Model"] = "models/pac/default.mdl",
+						["Position"] = Vector(3.734619140625, -0.20166015625, -3.5359191894531),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3894668578",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "AR2 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "615926974",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[13] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3197302662",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_frag@@1",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(3.576171875, -2.673828125, -0.2032470703125),
+				["Material"] = "https://dl.dropboxusercontent.com/s/4z2ztoe1iaybwb0/Chain%20Grenade.png?dl=0",
+				["Angles"] = Angle(-16.543174743652, 20.749280929565, 75.642669677734),
+				["AngleOffset"] = Angle(0, -21.39999961853, 30.799999237061),
+				["PositionOffset"] = Vector(-20.799999237061, 6.4000000953674, 0),
+				["ClassName"] = "model",
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/52lj1vzpo6digw5/Chain%20Grenade.obj?dl=0",
+				["UniqueID"] = "2437637264",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "1394433793",
+		["Name"] = "수류탄",
+	},
+},
+[14] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Arguments"] = "weapon_shotgun@@1",
+				["Invert"] = true,
+				["UniqueID"] = "1685426641",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["EditorExpand"] = true,
+				["ClassName"] = "event",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3276521889",
+						["Event"] = "is_flashlight_on",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-88.191062927246, 0.00068969023413956, -0.00067616568412632),
+								["ClassName"] = "clip",
+								["UniqueID"] = "359586230",
+								["Position"] = Vector(-0.23046875, 0.00146484375, -7.41259765625),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(-0.016000000759959, -2.029000043869, -4.4190001487732),
+						["Material"] = "https://dl.dropboxusercontent.com/s/odysja3x3aybupg/M1887.png?dl=0",
+						["Angles"] = Angle(7.1999998092651, 0.5, 86.400001525879),
+						["AngleOffset"] = Angle(7.8000001907349, 25.700000762939, 14.89999961853),
+						["PositionOffset"] = Vector(-15.10000038147, -7.5, 3),
+						["ClassName"] = "model",
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/49zwqsx4ff2nkrz/M1887.obj?dl=0",
+						["UniqueID"] = "2187308761",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "327224609",
+				["ClassName"] = "group",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_flashlight_on",
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["UniqueID"] = "1987608567",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-88.191062927246, 0.00068969023413956, -0.00067616568412632),
+								["ClassName"] = "clip",
+								["UniqueID"] = "2582736061",
+								["Position"] = Vector(-0.23046875, 0.00146484375, -7.41259765625),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(-0.016000000759959, -2.029000043869, -4.4190001487732),
+						["Material"] = "https://dl.dropboxusercontent.com/s/eoqnma765m63ytq/M1887%20Master.png?dl=0",
+						["Angles"] = Angle(7.1999998092651, 0.5, 86.400001525879),
+						["AngleOffset"] = Angle(7.8000001907349, 25.700000762939, 14.89999961853),
+						["PositionOffset"] = Vector(-15.10000038147, -7.5, 3),
+						["ClassName"] = "model",
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/laaivfydtp5qihm/M1887%20Master.obj?dl=0",
+						["UniqueID"] = "1856811318",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1788247819",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "68118476",
+		["Name"] = "샷건",
+	},
+},
+[15] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-0.00013745756587014, -101.65245056152, -0.00010842925257748),
+								["ClassName"] = "clip",
+								["UniqueID"] = "917824444",
+								["Position"] = Vector(1.13818359375, 14.83056640625, 0.00341796875),
+							},
+						},
+					},
+					["self"] = {
+						["Material"] = "https://dl.dropboxusercontent.com/s/th7dqph7ourittq/Dark%20knight%20overlord1.png?dl=0",
+						["UniqueID"] = "2886256947",
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/hdv9cozwy338dz3/Dark%20Knight1.obj?dl=0",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-0.00013745756587014, -101.65245056152, -0.00010842925257748),
+								["ClassName"] = "clip",
+								["UniqueID"] = "1933407855",
+								["Position"] = Vector(1.13818359375, 14.83056640625, 0.00341796875),
+							},
+						},
+					},
+					["self"] = {
+						["Material"] = "https://dl.dropboxusercontent.com/s/s4qnmb7910gg2lq/Dark%20knight%20overlord2.png?dl=0",
+						["UniqueID"] = "277285239",
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/wqlgb7zzeo61v8k/Dark%20Knight2.obj?dl=0",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_flashlight_on",
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["UniqueID"] = "3560715547",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3319969913",
+				["Alpha"] = 0,
+				["Angles"] = Angle(-7.3000001907349, -6.6999998092651, 83.400001525879),
+				["ClassName"] = "model",
+				["PositionOffset"] = Vector(-16.10000038147, 0, 1.8999999761581),
+				["AngleOffset"] = Angle(6.4000000953674, 0, 15.60000038147),
+				["Bone"] = "right hand",
+				["Model"] = "models/pac/default.mdl",
+				["Position"] = Vector(-0.8309999704361, -0.84899997711182, -2.7620000839233),
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1071514980",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_smg1@@1",
+				["Invert"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-0.00013745756587014, -101.65245056152, -0.00010842925257748),
+								["ClassName"] = "clip",
+								["UniqueID"] = "3732898486",
+								["Position"] = Vector(1.13818359375, 14.83056640625, 0.00341796875),
+							},
+						},
+					},
+					["self"] = {
+						["Material"] = "https://dl.dropboxusercontent.com/s/jy1yd6rr46zso0j/dark%20knight1.png?dl=0",
+						["UniqueID"] = "4217960801",
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/hdv9cozwy338dz3/Dark%20Knight1.obj?dl=0",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-0.00013745756587014, -101.65245056152, -0.00010842925257748),
+								["ClassName"] = "clip",
+								["UniqueID"] = "1583119364",
+								["Position"] = Vector(1.13818359375, 14.83056640625, 0.00341796875),
+							},
+						},
+					},
+					["self"] = {
+						["Material"] = "https://dl.dropboxusercontent.com/s/8zqabuo3hfan4oi/dark%20knight2.png?dl=0",
+						["UniqueID"] = "2588615344",
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/wqlgb7zzeo61v8k/Dark%20Knight2.obj?dl=0",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1141966103",
+						["Event"] = "is_flashlight_on",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1086637966",
+				["Alpha"] = 0,
+				["Angles"] = Angle(-7.3000001907349, -6.6999998092651, 83.400001525879),
+				["ClassName"] = "model",
+				["PositionOffset"] = Vector(-16.10000038147, 0, 1.8999999761581),
+				["AngleOffset"] = Angle(6.4000000953674, 0, 15.60000038147),
+				["Bone"] = "right hand",
+				["Model"] = "models/pac/default.mdl",
+				["Position"] = Vector(-0.8309999704361, -0.84899997711182, -2.7620000839233),
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0,
+				["Bone"] = "base",
+				["UniqueID"] = "1931861851",
+				["ClassName"] = "bone",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "SMG 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "875401888",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[16] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.01,
+				["Bone"] = "pump",
+				["UniqueID"] = "2303966953",
+				["ClassName"] = "bone",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-88.191062927246, 0.00068969023413956, -0.00067616568412632),
+								["ClassName"] = "clip",
+								["UniqueID"] = "626278249",
+								["Position"] = Vector(-0.23046875, 0.00146484375, -7.41259765625),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(-0.31600001454353, -0.028999999165535, -11.418999671936),
+						["Material"] = "https://dl.dropboxusercontent.com/s/odysja3x3aybupg/M1887.png?dl=0",
+						["Angles"] = Angle(-89.5, 90.400001525879, 88.199996948242),
+						["AngleOffset"] = Angle(5.8000001907349, 25.700000762939, 14.89999961853),
+						["PositionOffset"] = Vector(-15.10000038147, -7.5, 3),
+						["ClassName"] = "model",
+						["Bone"] = "gun",
+						["Model"] = "https://www.dropbox.com/s/49zwqsx4ff2nkrz/M1887.obj?dl=0",
+						["UniqueID"] = "3370494642",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2701389754",
+						["Event"] = "is_flashlight_on",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3196849445",
+				["ClassName"] = "group",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Arguments"] = "weapon_shotgun@@1",
+				["Invert"] = true,
+				["UniqueID"] = "2208318908",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["EditorExpand"] = true,
+				["ClassName"] = "event",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-88.191062927246, 0.00068969023413956, -0.00067616568412632),
+								["ClassName"] = "clip",
+								["UniqueID"] = "3711144007",
+								["Position"] = Vector(-0.23046875, 0.00146484375, -7.41259765625),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "2010463321",
+						["Name"] = "m%master",
+						["Material"] = "https://dl.dropboxusercontent.com/s/eoqnma765m63ytq/M1887%20Master.png?dl=0",
+						["Angles"] = Angle(-89.5, 90.400001525879, 88.199996948242),
+						["Position"] = Vector(-0.31600001454353, -0.028999999165535, -11.418999671936),
+						["PositionOffset"] = Vector(-15.10000038147, -7.5, 3),
+						["ClassName"] = "model",
+						["Bone"] = "gun",
+						["Model"] = "https://www.dropbox.com/s/laaivfydtp5qihm/M1887%20Master.obj?dl=0",
+						["AngleOffset"] = Angle(5.8000001907349, 25.700000762939, 14.89999961853),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3435696466",
+						["Event"] = "is_flashlight_on",
+						["EditorExpand"] = true,
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3593612594",
+				["ClassName"] = "group",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.01,
+				["Bone"] = "gun",
+				["UniqueID"] = "353103936",
+				["ClassName"] = "bone",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "샷건 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "3767789477",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[17] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Event"] = "is_flashlight_on",
+				["ClassName"] = "event",
+				["Invert"] = true,
+				["UniqueID"] = "1872451117",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Walk"] = "walk_dual",
+						["UniqueID"] = "326836754",
+						["ReloadStand"] = "reload_dual",
+						["Jump"] = "jump_dual",
+						["AttackStandPrimaryfire"] = "range_dual_l",
+						["CrouchWalk"] = "cwalk_dual",
+						["Run"] = "run_dual",
+						["ClassName"] = "holdtype",
+						["ReloadCrouch"] = "reload_dual_original",
+						["Noclip"] = "jump_dual",
+						["CrouchIdle"] = "cidle_dual",
+						["EditorExpand"] = true,
+						["StandIdle"] = "idle_dual",
+						["AttackCrouchPrimaryfire"] = "range_dual_r",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["UniqueID"] = "1175455091",
+										["ClassName"] = "clip",
+									},
+								},
+							},
+							["self"] = {
+								["Model"] = "https://www.dropbox.com/s/rti8bt4xid7z0gq/Dual%20infinity2.obj?dl=0",
+								["Material"] = "https://dl.dropboxusercontent.com/s/4upjjr7j1oulw69/dual%20infinity%20gold2.png?dl=0",
+								["UniqueID"] = "534534822",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "716088388",
+								["ClassName"] = "clip",
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(5.9764156503661e-06, 77.880516052246, 3.5858494811691e-05),
+						["UniqueID"] = "802061889",
+						["ClassName"] = "model",
+						["Position"] = Vector(-1.1044921875, -7.55859375, 0.1708984375),
+						["Bone"] = "left hand",
+						["Model"] = "https://www.dropbox.com/s/u6lghblehnj7rh7/Dual%20infinity1.obj?dl=0",
+						["Material"] = "https://dl.dropboxusercontent.com/s/ftc4sjoqiadom6g/dual%20infinity%20gold1.png?dl=0",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["UniqueID"] = "3339850657",
+										["Angles"] = Angle(180, 0, 0),
+									},
+								},
+							},
+							["self"] = {
+								["Model"] = "https://www.dropbox.com/s/rti8bt4xid7z0gq/Dual%20infinity2.obj?dl=0",
+								["Material"] = "https://dl.dropboxusercontent.com/s/ke2sp2caqcah3y5/dual%20infinity%20red2.png?dl=0",
+								["UniqueID"] = "4153102356",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "clip",
+								["UniqueID"] = "1788129510",
+								["Angles"] = Angle(180, 0, 0),
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(-5.9764156503661e-06, -93.230171203613, -179.99998474121),
+						["UniqueID"] = "1293222414",
+						["ClassName"] = "model",
+						["Position"] = Vector(0.728515625, -6.087890625, -0.255859375),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/u6lghblehnj7rh7/Dual%20infinity1.obj?dl=0",
+						["Material"] = "https://dl.dropboxusercontent.com/s/2uzayeyjylgthb0/dual%20infinity%20red1.png?dl=0",
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-8.6999998092651, -87.400001525879, 6.0999999046326),
+								["Bone"] = "right upperarm",
+								["UniqueID"] = "3529703626",
+								["ClassName"] = "bone",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "687629275",
+								["Event"] = "animation_event",
+								["Arguments"] = "attack primary@@0.3",
+								["Invert"] = true,
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-54.200000762939, 0, 0),
+								["Bone"] = "right hand",
+								["UniqueID"] = "3699739490",
+								["ClassName"] = "bone",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(71.400001525879, 0, 0),
+								["Bone"] = "left hand",
+								["UniqueID"] = "1031034444",
+								["ClassName"] = "bone",
+							},
+						},
+						[5] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-28.89999961853, 51.099998474121, -74.199996948242),
+								["Bone"] = "right forearm",
+								["UniqueID"] = "3808557756",
+								["ClassName"] = "bone",
+							},
+						},
+						[6] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-15, -87.699996948242, 6.0999999046326),
+								["Bone"] = "left upperarm",
+								["UniqueID"] = "2990711571",
+								["ClassName"] = "bone",
+							},
+						},
+						[7] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(70.699996948242, 36.900001525879, 75),
+								["Bone"] = "left forearm",
+								["UniqueID"] = "1380587863",
+								["ClassName"] = "bone",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "2219833013",
+						["ClassName"] = "group",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3703641998",
+						["Event"] = "weapon_class",
+						["Operator"] = "equal",
+						["Arguments"] = "weapon_pistol@@1",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1260330976",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "쌍권총2",
+		["ClassName"] = "group",
+		["UniqueID"] = "1129779702",
+		["Description"] = "나에게 파트를 추가하세요!",
+	},
+},
+[18] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1178205756",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_rpg@@1",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(4.0981136407936e-05, -115.81297302246, -2.7214031433687e-05),
+								["ClassName"] = "clip",
+								["UniqueID"] = "1912853549",
+								["Position"] = Vector(13.49072265625, 14.72705078125, -5.4873046875),
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(-10.926699638367, 1.9263586997986, 101.59159851074),
+						["Material"] = "https://dl.dropboxusercontent.com/s/tnxdaz99v9tksob/Black%20Dragon%20Cannon.png?dl=0",
+						["UniqueID"] = "3491889366",
+						["PositionOffset"] = Vector(-21, 0, 0),
+						["Position"] = Vector(10.6083984375, -7.646484375, -13.44384765625),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/dyb0l8r5p8ob137/Black%20Dragon%20Cannon.obj?dl=0",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "2153812859",
+				["PositionOffset"] = Vector(-9.3000001907349, 7.6999998092651, 13.699999809265),
+				["Position"] = Vector(-12.39999961853, -5.1999998092651, 3),
+				["Bone"] = "left hand",
+				["Model"] = "models/pac/default.mdl",
+				["Angles"] = Angle(-3.6419999599457, 9.7040004730225, 172.84405517578),
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0,
+				["Bone"] = "base",
+				["UniqueID"] = "3652562852",
+				["ClassName"] = "bone",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "RPG 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "916260754",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[19] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-0.00013745756587014, -101.65245056152, -0.00010842925257748),
+										["ClassName"] = "clip",
+										["UniqueID"] = "3556824143",
+										["Position"] = Vector(1.13818359375, 14.83056640625, 0.00341796875),
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "https://dl.dropboxusercontent.com/s/8zqabuo3hfan4oi/dark%20knight2.png?dl=0",
+								["UniqueID"] = "1857580740",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/wqlgb7zzeo61v8k/Dark%20Knight2.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-0.00013745756587014, -101.65245056152, -0.00010842925257748),
+										["ClassName"] = "clip",
+										["UniqueID"] = "3335237887",
+										["Position"] = Vector(1.13818359375, 14.83056640625, 0.00341796875),
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "https://dl.dropboxusercontent.com/s/jy1yd6rr46zso0j/dark%20knight1.png?dl=0",
+								["UniqueID"] = "1989605278",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/hdv9cozwy338dz3/Dark%20Knight1.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "1478162757",
+								["Event"] = "is_flashlight_on",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "560764966",
+						["Alpha"] = 0,
+						["Angles"] = Angle(12.300000190735, 0, 90),
+						["ClassName"] = "model",
+						["PositionOffset"] = Vector(-16.10000038147, 0, 1.8999999761581),
+						["AngleOffset"] = Angle(6.4000000953674, 0, 15.60000038147),
+						["Bone"] = "right hand",
+						["Model"] = "models/pac/default.mdl",
+						["Position"] = Vector(-0.8309999704361, -1.9490000009537, -0.16200000047684),
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(9.5, -6.1999998092651, -107.69999694824),
+								["Bone"] = "left hand",
+								["UniqueID"] = "3885997374",
+								["ClassName"] = "bone",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(0, -8.6999998092651, 0),
+								["Bone"] = "left forearm",
+								["UniqueID"] = "2451492702",
+								["ClassName"] = "bone",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "2121852648",
+						["ClassName"] = "group",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-0.00013745756587014, -101.65245056152, -0.00010842925257748),
+										["ClassName"] = "clip",
+										["UniqueID"] = "1978375333",
+										["Position"] = Vector(1.13818359375, 14.83056640625, 0.00341796875),
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "https://dl.dropboxusercontent.com/s/s4qnmb7910gg2lq/Dark%20knight%20overlord2.png?dl=0",
+								["UniqueID"] = "3303523133",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/wqlgb7zzeo61v8k/Dark%20Knight2.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-0.00013745756587014, -101.65245056152, -0.00010842925257748),
+										["ClassName"] = "clip",
+										["UniqueID"] = "2554337199",
+										["Position"] = Vector(1.13818359375, 14.83056640625, 0.00341796875),
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "https://dl.dropboxusercontent.com/s/th7dqph7ourittq/Dark%20knight%20overlord1.png?dl=0",
+								["UniqueID"] = "2479001395",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/hdv9cozwy338dz3/Dark%20Knight1.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "is_flashlight_on",
+								["ClassName"] = "event",
+								["Invert"] = true,
+								["UniqueID"] = "1985114476",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "3686948497",
+						["Alpha"] = 0,
+						["Angles"] = Angle(12.300000190735, 0, 90),
+						["ClassName"] = "model",
+						["PositionOffset"] = Vector(-16.10000038147, 0, 1.8999999761581),
+						["AngleOffset"] = Angle(6.4000000953674, 0, 15.60000038147),
+						["Bone"] = "right hand",
+						["Model"] = "models/pac/default.mdl",
+						["Position"] = Vector(-0.8309999704361, -1.9490000009537, -0.16200000047684),
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Arguments"] = "weapon_smg1@@1",
+						["Invert"] = true,
+						["UniqueID"] = "3364631504",
+						["Event"] = "weapon_class",
+						["Operator"] = "equal",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2452592413",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2843629584",
+		["Name"] = "SMG",
+	},
+},
+[20] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2687656875",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_crossbow@@1",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-1.600825640935e-07, -81.960571289063, 173.42668151855),
+				["Material"] = "https://dl.dropboxusercontent.com/s/4p7b9s962gguwvw/crossbow.png?dl=0",
+				["UniqueID"] = "1080311352",
+				["PositionOffset"] = Vector(-5, 0, -9.8000001907349),
+				["Position"] = Vector(8.735595703125, 3.974853515625, -2.578125),
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/4a3neubuqd2hcts/Crossbow.obj?dl=0",
+				["ClassName"] = "model",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3252461235",
+		["Name"] = "석궁",
+	},
+},
+[21] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(180, 0, 0),
+						["ClassName"] = "clip",
+						["UniqueID"] = "2771954130",
+						["Position"] = Vector(10.349243164063, -0.000244140625, -0.00244140625),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "clip",
+						["UniqueID"] = "1633279969",
+						["Position"] = Vector(-10.34765625, -0.001220703125, -0.0087890625),
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(12.954833984375, 2.0826416015625, -5.30908203125),
+				["UniqueID"] = "3791906070",
+				["ClassName"] = "model",
+				["Angles"] = Angle(-1.1099057701358e-05, -90.000045776367, -14.580477714539),
+				["Size"] = -1,
+				["Material"] = "https://dl.dropboxusercontent.com/s/w3lgfcrhftuckmq/camera.png?dl=0",
+				["Fullbright"] = true,
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/anvl7w2x0m4p6pr/Camera.obj?dl=0",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Walk"] = "walk_rpg",
+				["UniqueID"] = "846958427",
+				["Jump"] = "jump_rpg",
+				["AttackStandPrimaryfire"] = "range_rpg",
+				["Run"] = "run_rpg",
+				["ClassName"] = "holdtype",
+				["Air"] = "jump_rpg",
+				["CrouchWalk"] = "cwalk_rpg",
+				["CrouchIdle"] = "cidle_rpg",
+				["Noclip"] = "jump_rpg",
+				["StandIdle"] = "idle_rpg",
+				["AttackCrouchPrimaryfire"] = "range_rpg",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2726635673",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "gmod_camera@@1",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "929876000",
+		["Name"] = "카메라",
+	},
+},
+[22] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1434870285",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_rpg@@1",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(4.0981136407936e-05, -115.81297302246, -2.7214031433687e-05),
+						["ClassName"] = "clip",
+						["UniqueID"] = "678928642",
+						["Position"] = Vector(13.49072265625, 14.72705078125, -5.4873046875),
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(-10.926699638367, 1.9263586997986, 101.59159851074),
+				["Material"] = "https://dl.dropboxusercontent.com/s/tnxdaz99v9tksob/Black%20Dragon%20Cannon.png?dl=0",
+				["UniqueID"] = "1188609564",
+				["PositionOffset"] = Vector(-20.5, 0, 0),
+				["Position"] = Vector(1.567138671875, -1.263671875, -3.61572265625),
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/dyb0l8r5p8ob137/Black%20Dragon%20Cannon.obj?dl=0",
+				["ClassName"] = "model",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Walk"] = "walk_shotgun",
+				["UniqueID"] = "3368479240",
+				["ReloadStand"] = "reload_shotgun_original",
+				["Jump"] = "jump_shotgun",
+				["AttackStandPrimaryfire"] = "range_shotgun",
+				["CrouchWalk"] = "cwalk_shotgun",
+				["Run"] = "run_shotgun",
+				["ClassName"] = "holdtype",
+				["Air"] = "jump_shotgun",
+				["ReloadCrouch"] = "reload_shotgun_original",
+				["CrouchIdle"] = "cidle_shotgun",
+				["Noclip"] = "jump_shotgun",
+				["StandIdle"] = "idle_shotgun",
+				["AttackCrouchPrimaryfire"] = "range_shotgun",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2917659780",
+		["Name"] = "RPG",
+	},
+},
+[23] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "https://dl.dropboxusercontent.com/s/m2ydh1tr774d65p/Storm%20Giant1.png?dl=0",
+								["UniqueID"] = "2164660978",
+								["EditorExpand"] = true,
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/p99xafy28moa0ux/Storm%20Giant2.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "https://dl.dropboxusercontent.com/s/97qypfy64d3u1l2/Storm%20Giant2.png?dl=0",
+								["UniqueID"] = "1486632156",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/t015v3ye20euxth/Storm%20Giant1.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Angles"] = Angle(0, 180, 0),
+								["UniqueID"] = "415876139",
+								["EditorExpand"] = true,
+								["Position"] = Vector(-0.40000000596046, 0.69999998807907, 0),
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/iw7u4o1klprhts3/Storm%20Giant3.obj?dl=0",
+								["Material"] = "https://dl.dropboxusercontent.com/s/97qypfy64d3u1l2/Storm%20Giant2.png?dl=0",
+							},
+						},
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["Angles"] = Angle(-170.60000610352, 71.800003051758, -7),
+						["UniqueID"] = "2299968446",
+						["Position"] = Vector(7.1999998092651, 0.10000000149012, 4.0999999046326),
+						["Bone"] = "right hand",
+						["Model"] = "models/pac/default.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3934419233",
+						["Event"] = "is_flashlight_on",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.01,
+						["Bone"] = "right hand",
+						["UniqueID"] = "2348596911",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2219030267",
+				["ClassName"] = "group",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3999633040",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_stunstick@@1",
+				["Invert"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_flashlight_on",
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["UniqueID"] = "136208962",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "https://dl.dropboxusercontent.com/s/93xidujgushlyrf/storm%20giant%20tw2.png?dl=0",
+								["UniqueID"] = "3804675436",
+								["EditorExpand"] = true,
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/ka85dkvft5ymacg/Storm%20Giant%20tw1.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Angles"] = Angle(0, 180, 0),
+								["UniqueID"] = "482707571",
+								["EditorExpand"] = true,
+								["Position"] = Vector(-0.40000000596046, 0.69999998807907, 0),
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/kutcfrx7optibdf/Storm%20Giant%20tw3.obj?dl=0",
+								["Material"] = "https://dl.dropboxusercontent.com/s/93xidujgushlyrf/storm%20giant%20tw2.png?dl=0",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "https://dl.dropboxusercontent.com/s/oaztlbmnmuarm9a/storm%20giant%20tw1.png?dl=0",
+								["UniqueID"] = "2597109415",
+								["Bone"] = "right hand",
+								["Model"] = "https://www.dropbox.com/s/fg4zxt4df3u6tkl/Storm%20Giant%20tw2.obj?dl=0",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["Angles"] = Angle(-170.60000610352, 71.800003051758, -7),
+						["UniqueID"] = "3575580837",
+						["Position"] = Vector(7.1999998092651, 0.10000000149012, 4.0999999046326),
+						["Bone"] = "right hand",
+						["Model"] = "models/pac/default.mdl",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3335893768",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "스턴스틱 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "2650987045",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[24] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "328666094",
+						["Position"] = Vector(3.6318359375, -1.65673828125, -4.796875),
+						["EditorExpand"] = true,
+						["Angles"] = Angle(180, -98.10570526123, -0.60000002384186),
+						["ClassName"] = "model",
+						["Fullbright"] = true,
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/ypl2r3je1njblqj/Dual%20Sword%20F1.obj?dl=0",
+						["Material"] = "https://dl.dropboxusercontent.com/s/z7g16xb7ohx4p1m/Dual%20sword2.png?dl=0",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Material"] = "https://dl.dropboxusercontent.com/s/m75qp869ep1d32v/Dual%20sword1.png?dl=0",
+						["UniqueID"] = "1242549649",
+						["Position"] = Vector(3.6318359375, -1.65673828125, -4.796875),
+						["Bone"] = "right hand",
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/gad4ems5dqe8jlq/Dual%20Sword%20F2.obj?dl=0",
+						["Angles"] = Angle(180, -98.10570526123, -0.60000002384186),
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "1715983668",
+				["Bone"] = "right hand",
+				["Model"] = "models/pac/default.mdl",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "right hand",
+				["UniqueID"] = "3524604023",
+				["ClassName"] = "bone",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2178775409",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_crowbar@@1",
+				["Invert"] = true,
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2814076974",
+						["Position"] = Vector(3.6318359375, -1.65673828125, -4.796875),
+						["EditorExpand"] = true,
+						["Angles"] = Angle(180, -98.10570526123, -0.60000002384186),
+						["ClassName"] = "model",
+						["Fullbright"] = true,
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/5yfav9u0elnxe6z/Dual%20Sword%20T1.obj?dl=0",
+						["Material"] = "https://dl.dropboxusercontent.com/s/z7g16xb7ohx4p1m/Dual%20sword2.png?dl=0",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Material"] = "https://dl.dropboxusercontent.com/s/m75qp869ep1d32v/Dual%20sword1.png?dl=0",
+						["UniqueID"] = "2762490236",
+						["Position"] = Vector(3.6318359375, -1.65673828125, -4.796875),
+						["Bone"] = "right hand",
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/kuhmjoswxxdyntx/Dual%20Sword%20T2.obj?dl=0",
+						["Angles"] = Angle(180, -98.10570526123, -0.60000002384186),
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["Angles"] = Angle(-20.295673370361, -53.049404144287, -169.26023864746),
+				["UniqueID"] = "1598383776",
+				["Position"] = Vector(-20.57958984375, 0.427734375, 21.341999053955),
+				["Bone"] = "left hand",
+				["Model"] = "models/pac/default.mdl",
+				["ClassName"] = "model",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "검 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "498957724",
+		["OwnerName"] = "viewmodel",
+	},
+},

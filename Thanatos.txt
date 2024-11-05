@@ -1,0 +1,831 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "4260164290",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_shotgun@@1",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, 90, 0),
+						["ClassName"] = "clip",
+						["UniqueID"] = "2143394341",
+						["Position"] = Vector(30.691162109375, -8, 18.4453125),
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(0, 0, 103.30000305176),
+				["Material"] = "https://dl.dropboxusercontent.com/s/jumr0eu1mji7z7c/Thanatos%20Shotgun.png?dl=0",
+				["UniqueID"] = "1512333874",
+				["PositionOffset"] = Vector(-18.60000038147, 0, 0),
+				["Position"] = Vector(0.7244873046875, -1.527999997139, -1.6469999551773),
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/90kax9e723jugni/Thanatos%20Shotgun.obj?dl=0",
+				["ClassName"] = "model",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "1516294290",
+		["Name"] = "샷건",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "632131104",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_pistol@@1",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(90, 0, -90),
+				["Material"] = "https://dl.dropboxusercontent.com/s/k224h5g5ugczl69/thanatos%20pistol.png?dl=0",
+				["UniqueID"] = "1889193498",
+				["Position"] = Vector(16.636999130249, -1.4950000047684, -6.7560000419617),
+				["ClassName"] = "model",
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/hu2wu6ziwpkza7c/Thanatos%20Pistol.obj?dl=0",
+				["AngleOffset"] = Angle(90, 0, 0),
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "square",
+						["UniqueID"] = "2606223956",
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.01,
+						["Bone"] = "right hand",
+						["UniqueID"] = "3424462365",
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3983743293",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1086428439",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "권총 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "2597023023",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1928379939",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_ar2@@1",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(180, 90, -10.300000190735),
+				["UniqueID"] = "1884082737",
+				["ClassName"] = "model",
+				["Position"] = Vector(9.3999996185303, -1.3999999761581, -2),
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/aqmingz8w6pyen9/Thanatos%20Pulse.obj?dl=0",
+				["Material"] = "https://dl.dropboxusercontent.com/s/dau3ajarswek4di/thanatos%20pulse.png?dl=0",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Walk"] = "walk_smg1",
+				["UniqueID"] = "396221453",
+				["ReloadStand"] = "reload_smg1_original",
+				["Jump"] = "jump_smg1",
+				["Run"] = "run_smg1",
+				["ClassName"] = "holdtype",
+				["Air"] = "jump_smg1",
+				["CrouchWalk"] = "cwalk_smg1",
+				["CrouchIdle"] = "cidle_smg1",
+				["ReloadCrouch"] = "reload_smg1_original",
+				["StandIdle"] = "idle_smg1",
+				["Noclip"] = "jump_smg1",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3173082054",
+		["Name"] = "AR2",
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, 90, 0),
+						["ClassName"] = "clip",
+						["UniqueID"] = "187203800",
+						["Position"] = Vector(30.690000534058, -8.0059995651245, 0.00390625),
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(-15.383999824524, -6.0780000686646, -1.2879999876022),
+				["Material"] = "https://dl.dropboxusercontent.com/s/jumr0eu1mji7z7c/Thanatos%20Shotgun.png?dl=0",
+				["Angles"] = Angle(-79.400001525879, -69.5, 87.699996948242),
+				["AngleOffset"] = Angle(42.200000762939, 0, 0),
+				["PositionOffset"] = Vector(-18.60000038147, 0, 0),
+				["ClassName"] = "model",
+				["Bone"] = "left hand",
+				["Model"] = "https://www.dropbox.com/s/90kax9e723jugni/Thanatos%20Shotgun.obj?dl=0",
+				["UniqueID"] = "357497849",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1612777890",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_shotgun@@1",
+				["Invert"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "353270585",
+						["Bone"] = "gun",
+						["Size"] = 0,
+						["Position"] = Vector(-3.0517578125e-05, -3.0517578125e-05, 0),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2879755899",
+						["Bone"] = "pump",
+						["Size"] = 0,
+						["Position"] = Vector(-3.0517578125e-05, -3.0517578125e-05, 0),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1615950426",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "샷건 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "3579242276",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[5] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(90, 0, -90),
+				["Material"] = "https://dl.dropboxusercontent.com/s/k224h5g5ugczl69/thanatos%20pistol.png?dl=0",
+				["UniqueID"] = "1568083406",
+				["Position"] = Vector(16.73681640625, -1.6953125, -6.8555603027344),
+				["ClassName"] = "model",
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/hu2wu6ziwpkza7c/Thanatos%20Pistol.obj?dl=0",
+				["AngleOffset"] = Angle(90, 0, 0),
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1054947827",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_pistol@@1",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "1112831294",
+		["Name"] = "권총",
+	},
+},
+[6] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(0, 0, -106.80000305176),
+				["Bone"] = "left hand",
+				["UniqueID"] = "4256564930",
+				["ClassName"] = "bone",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(176.80000305176, -86.199996948242, 12.10000038147),
+				["UniqueID"] = "912791916",
+				["ClassName"] = "model",
+				["Position"] = Vector(5.4000000953674, -0.60000002384186, -1.2999999523163),
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/26smcoef0s1fet7/Thanatos%20SMG.obj?dl=0",
+				["Material"] = "https://dl.dropboxusercontent.com/s/k8nc6dve00xl23y/Thanatos%20SMG.png?dl=0",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(23.799999237061, -21, -1.5),
+				["Bone"] = "left forearm",
+				["UniqueID"] = "2146169287",
+				["ClassName"] = "bone",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "165748948",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_smg1@@1",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "202352656",
+		["Name"] = "SMG",
+	},
+},
+[7] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2672092969",
+						["Material"] = "models/debug/debugwhite",
+						["Angles"] = Angle(-3.5565965175629, -169.37699890137, 153.71620178223),
+						["Position"] = Vector(-3.7373046875, 6.8920001983643, -22.009000778198),
+						["Scale"] = Vector(1.0099999904633, 1, 1),
+						["Alpha"] = 0.525,
+						["ClassName"] = "model",
+						["Size"] = 0.85,
+						["PositionOffset"] = Vector(-19.60000038147, -1, -106.59999847412),
+						["Color"] = Vector(27, 35, 43),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/x3c13cv3t8q1gll/Thanatos%20sickle2.obj?dl=0",
+						["Fullbright"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "398822655",
+						["Material"] = "models/debug/debugwhite",
+						["Angles"] = Angle(-3.5565965175629, -170.37669372559, 153.71620178223),
+						["Scale"] = Vector(1.0099999904633, 1, 1),
+						["Position"] = Vector(-3.865234375, 6.46484375, -22.042724609375),
+						["ClassName"] = "model",
+						["Size"] = 0.85,
+						["PositionOffset"] = Vector(-19.60000038147, -1, -106.59999847412),
+						["Color"] = Vector(27, 35, 43),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/x3c13cv3t8q1gll/Thanatos%20sickle2.obj?dl=0",
+						["Fullbright"] = true,
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-5.4539999961853, -169.43499755859, 153.77336120605),
+						["Material"] = "https://dl.dropboxusercontent.com/s/lg6w94e18pnwqo7/Thanatos%20sickle.png?dl=0",
+						["UniqueID"] = "2024169707",
+						["PositionOffset"] = Vector(-19.60000038147, -1, -106.59999847412),
+						["Position"] = Vector(3.1840000152588, 1.2050000429153, -5.4019999504089),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/bog2attshhwah5x/Thanatos%20sickle1.obj?dl=0",
+						["ClassName"] = "model",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "767223369",
+						["Material"] = "models/debug/debugwhite",
+						["Position"] = Vector(3.1840000152588, 1.20458984375, -5.402099609375),
+						["ClassName"] = "model",
+						["Angles"] = Angle(-5.4539999961853, -169.43539428711, 153.64212036133),
+						["PositionOffset"] = Vector(-19.60000038147, -1, -106.59999847412),
+						["Color"] = Vector(96, 102, 101),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/x3c13cv3t8q1gll/Thanatos%20sickle2.obj?dl=0",
+						["Fullbright"] = true,
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3425020381",
+						["Model"] = "https://www.dropbox.com/s/x3c13cv3t8q1gll/Thanatos%20sickle2.obj?dl=0",
+						["Position"] = Vector(11.111000061035, 9.2980003356934, -6.8480000495911),
+						["Bone"] = "right hand",
+						["Alpha"] = 0.999,
+						["ClassName"] = "model",
+						["Angles"] = Angle(-5.4539999961853, -169.63499450684, 162.34199523926),
+						["PositionOffset"] = Vector(-19.60000038147, -1, -106.59999847412),
+						["Brightness"] = 10.9,
+						["Fullbright"] = true,
+						["Translucent"] = true,
+						["Material"] = "https://www.dropbox.com/s/qi0sfiz8thiwmr1/thanatos%20sickle3.png?dl=0",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "1171296253",
+						["Material"] = "https://www.dropbox.com/s/qi0sfiz8thiwmr1/thanatos%20sickle3.png?dl=0",
+						["Alpha"] = 0.999,
+						["Angles"] = Angle(-5.4539999961853, -169.43499755859, 153.64212036133),
+						["Position"] = Vector(3.1552734375, 0.81640625, -5.2685546875),
+						["PositionOffset"] = Vector(-19.60000038147, -1, -106.59999847412),
+						["ClassName"] = "model",
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/x3c13cv3t8q1gll/Thanatos%20sickle2.obj?dl=0",
+						["Fullbright"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["Angles"] = Angle(-0.60000002384186, 138.80000305176, 9.8999996185303),
+				["UniqueID"] = "1391362955",
+				["Position"] = Vector(6.556640625, -2.8505859375, -1.2289999723434),
+				["Bone"] = "right hand",
+				["Model"] = "models/pac/default.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2975574666",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_crowbar@@1",
+				["Invert"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "bone",
+				["UniqueID"] = "644240230",
+				["Bone"] = "right hand",
+				["Name"] = "right hand",
+				["Size"] = 0.01,
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "낫 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "3864634399",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[8] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-177.89999389648, -95, -5.5999999046326),
+				["UniqueID"] = "2565112077",
+				["ClassName"] = "model",
+				["Position"] = Vector(6.1999998092651, -1.5, -1.2999999523163),
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/26smcoef0s1fet7/Thanatos%20SMG.obj?dl=0",
+				["Material"] = "https://dl.dropboxusercontent.com/s/k8nc6dve00xl23y/Thanatos%20SMG.png?dl=0",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "203817517",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_smg1@@1",
+				["Invert"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(6.1999998092651, 0, 0),
+						["Bone"] = "left forearm",
+						["UniqueID"] = "3265545085",
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "base",
+						["UniqueID"] = "1931861851",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "4191799365",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "SMG 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "803593531",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[9] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3092666564",
+						["Material"] = "models/debug/debugwhite",
+						["Angles"] = Angle(-3.5565965175629, -170.37669372559, 153.71620178223),
+						["Scale"] = Vector(1.0099999904633, 1, 1),
+						["Position"] = Vector(-3.865234375, 6.46484375, -22.042724609375),
+						["ClassName"] = "model",
+						["Size"] = 0.85,
+						["PositionOffset"] = Vector(-19.60000038147, -1, -106.59999847412),
+						["Color"] = Vector(27, 35, 43),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/x3c13cv3t8q1gll/Thanatos%20sickle2.obj?dl=0",
+						["Fullbright"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-5.4539999961853, -169.43499755859, 153.77336120605),
+						["Material"] = "https://dl.dropboxusercontent.com/s/lg6w94e18pnwqo7/Thanatos%20sickle.png?dl=0",
+						["UniqueID"] = "3060912066",
+						["PositionOffset"] = Vector(-19.60000038147, -1, -106.59999847412),
+						["Position"] = Vector(3.1840000152588, 1.2050000429153, -5.4019999504089),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/bog2attshhwah5x/Thanatos%20sickle1.obj?dl=0",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "1817603093",
+						["Material"] = "models/debug/debugwhite",
+						["Angles"] = Angle(-3.5565965175629, -170.37669372559, 153.71620178223),
+						["Position"] = Vector(-3.7373046875, 6.8916015625, -22.20947265625),
+						["Scale"] = Vector(1.0099999904633, 1, 1),
+						["Alpha"] = 0.999,
+						["ClassName"] = "model",
+						["Size"] = 0.85,
+						["PositionOffset"] = Vector(-19.60000038147, -1, -106.59999847412),
+						["Color"] = Vector(27, 35, 43),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/x3c13cv3t8q1gll/Thanatos%20sickle2.obj?dl=0",
+						["Fullbright"] = true,
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2549678694",
+						["Material"] = "models/debug/debugwhite",
+						["Position"] = Vector(3.1840000152588, 1.20458984375, -5.402099609375),
+						["ClassName"] = "model",
+						["Angles"] = Angle(-5.4539999961853, -169.43539428711, 153.64212036133),
+						["PositionOffset"] = Vector(-19.60000038147, -1, -106.59999847412),
+						["Color"] = Vector(96, 102, 101),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/x3c13cv3t8q1gll/Thanatos%20sickle2.obj?dl=0",
+						["Fullbright"] = true,
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "325197148",
+						["Model"] = "https://www.dropbox.com/s/x3c13cv3t8q1gll/Thanatos%20sickle2.obj?dl=0",
+						["Position"] = Vector(3.310546875, 1.2978515625, -5.34765625),
+						["Alpha"] = 0.999,
+						["Angles"] = Angle(-5.4539999961853, -169.43499755859, 153.64212036133),
+						["ClassName"] = "model",
+						["PositionOffset"] = Vector(-19.60000038147, -1, -106.59999847412),
+						["Fullbright"] = true,
+						["Bone"] = "right hand",
+						["Translucent"] = true,
+						["Material"] = "https://www.dropbox.com/s/qi0sfiz8thiwmr1/thanatos%20sickle3.png?dl=0",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2159582977",
+						["Material"] = "https://www.dropbox.com/s/qi0sfiz8thiwmr1/thanatos%20sickle3.png?dl=0",
+						["Alpha"] = 0.999,
+						["Angles"] = Angle(-5.4539999961853, -169.43499755859, 153.64212036133),
+						["Position"] = Vector(3.1552734375, 0.81640625, -5.2685546875),
+						["PositionOffset"] = Vector(-19.60000038147, -1, -106.59999847412),
+						["ClassName"] = "model",
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/x3c13cv3t8q1gll/Thanatos%20sickle2.obj?dl=0",
+						["Fullbright"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["Angles"] = Angle(0, 180, 10.5),
+				["UniqueID"] = "927623889",
+				["Position"] = Vector(6.556640625, -2.8505859375, 0.1708984375),
+				["Bone"] = "right hand",
+				["Model"] = "models/pac/default.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3162588894",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_crowbar@@1",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3382438619",
+		["Name"] = "낫",
+	},
+},
+[10] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Expression"] = "n,time()*-1000",
+						["ClassName"] = "proxy",
+						["UniqueID"] = "4073977861",
+						["VariableName"] = "Angles",
+					},
+				},
+			},
+			["self"] = {
+				["Material"] = "https://dl.dropboxusercontent.com/s/dau3ajarswek4di/thanatos%20pulse.png?dl=0",
+				["UniqueID"] = "1055737657",
+				["PositionOffset"] = Vector(0, 1.5, 0),
+				["Angles"] = Angle(0, 108.5, 0),
+				["Position"] = Vector(0, 0, -4.8603515625),
+				["Model"] = "https://www.dropbox.com/s/li7m8vkk86vz371/Thanatos%20Pulse%20Knife.obj?dl=0",
+				["ClassName"] = "model",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3298414254",
+				["ClassName"] = "entity",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "콤바인볼",
+		["ClassName"] = "group",
+		["UniqueID"] = "1113740503",
+		["OwnerName"] = "combineball",
+	},
+},
+[11] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "bolt 2",
+						["UniqueID"] = "2847569284",
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "reload 2",
+						["UniqueID"] = "3984449590",
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "shell 2",
+						["UniqueID"] = "2847569284",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "shell 1",
+						["UniqueID"] = "3069574130",
+						["ClassName"] = "bone",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "bolt 1",
+						["UniqueID"] = "2847569284",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1184374781",
+				["ClassName"] = "group",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(170.80000305176, 90, -3.2000000476837),
+				["UniqueID"] = "3447038154",
+				["ClassName"] = "model",
+				["Position"] = Vector(9.3999996185303, -1.3999999761581, -2),
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/aqmingz8w6pyen9/Thanatos%20Pulse.obj?dl=0",
+				["Material"] = "https://dl.dropboxusercontent.com/s/dau3ajarswek4di/thanatos%20pulse.png?dl=0",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "650391620",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_ar2@@1",
+				["Invert"] = true,
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Walk"] = "walk_smg1",
+				["UniqueID"] = "2024748789",
+				["ReloadStand"] = "reload_smg1_original",
+				["Jump"] = "jump_smg1",
+				["Run"] = "run_smg1",
+				["ClassName"] = "holdtype",
+				["Air"] = "jump_smg1",
+				["CrouchWalk"] = "cwalk_smg1",
+				["CrouchIdle"] = "cidle_smg1",
+				["ReloadCrouch"] = "reload_smg1_original",
+				["StandIdle"] = "idle_smg1",
+				["Noclip"] = "jump_smg1",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "AR2 시점",
+		["ClassName"] = "group",
+		["UniqueID"] = "2400925889",
+		["OwnerName"] = "viewmodel",
+	},
+},

@@ -1,0 +1,211 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Expression"] = "nil,nil,sin(time()*10)^1*10",
+								["ClassName"] = "proxy",
+								["UniqueID"] = "687841002",
+								["VariableName"] = "Position",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "3551523195",
+						["Name"] = "sin(time()*속도)^딜레이*거리",
+						["Model"] = "https://dl.dropboxusercontent.com/s/0odfiw59bzv37t9/Ponyo.obj?dl=0",
+						["Position"] = Vector(2.37890625, -0.00390625, -9.9457406997681),
+						["Angles"] = Angle(0, 90, 0),
+						["Size"] = 0.65,
+						["PositionOffset"] = Vector(0, 0, 15.39999961853),
+						["Material"] = "https://dl.dropboxusercontent.com/s/s1c9bb8l2yunjgy/Ponyo.png?dl=0",
+						["Bone"] = "",
+						["Brightness"] = 2,
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "speed",
+						["UniqueID"] = "3700616701",
+						["Operator"] = "equal or above",
+						["ClassName"] = "event",
+						["Arguments"] = "300",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3509275876",
+				["ClassName"] = "group",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3776044436",
+				["Event"] = "speed",
+				["Operator"] = "equal or above",
+				["Arguments"] = "1",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "500400277",
+		["Name"] = "걷기",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["UniqueID"] = "191807044",
+				["Bone"] = "",
+				["Position"] = Vector(-129.56787109375, -0.018798828125, 93.01953125),
+				["ClassName"] = "camera",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3492676017",
+		["Name"] = "3인칭",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "speed",
+						["UniqueID"] = "690042794",
+						["Operator"] = "equal or below",
+						["ClassName"] = "event",
+						["Arguments"] = "100",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3526682190",
+				["Event"] = "speed",
+				["Operator"] = "equal or above",
+				["Arguments"] = "300",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Expression"] = "nil,nil,sin(time()*10)^1*20",
+								["ClassName"] = "proxy",
+								["UniqueID"] = "2709128149",
+								["VariableName"] = "Position",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "52191028",
+						["Name"] = "sin(time()*속도)^딜레이*거리",
+						["Model"] = "https://dl.dropboxusercontent.com/s/0odfiw59bzv37t9/Ponyo.obj?dl=0",
+						["Position"] = Vector(2.37890625, -0.00390625, -8.2890310287476),
+						["Angles"] = Angle(0, 90, 0),
+						["Size"] = 0.65,
+						["PositionOffset"] = Vector(0, 0, 27.700000762939),
+						["Material"] = "https://dl.dropboxusercontent.com/s/s1c9bb8l2yunjgy/Ponyo.png?dl=0",
+						["Bone"] = "",
+						["Brightness"] = 2,
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1160751408",
+				["ClassName"] = "group",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "605341244",
+		["Name"] = "달리기",
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "speed",
+						["UniqueID"] = "3598360864",
+						["Operator"] = "equal or above",
+						["ClassName"] = "event",
+						["Arguments"] = "1",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "52191028",
+				["Model"] = "https://dl.dropboxusercontent.com/s/0odfiw59bzv37t9/Ponyo.obj?dl=0",
+				["Material"] = "https://dl.dropboxusercontent.com/s/s1c9bb8l2yunjgy/Ponyo.png?dl=0",
+				["Size"] = 0.65,
+				["ClassName"] = "model",
+				["Angles"] = Angle(0, 90, 0),
+				["Bone"] = "",
+				["Brightness"] = 2,
+				["Position"] = Vector(2.379638671875, -0.0029296875, 4.3293743133545),
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["UniqueID"] = "2916799640",
+				["MuteFootsteps"] = true,
+				["HideEntity"] = true,
+				["DrawShadow"] = false,
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.001,
+				["Bone"] = "right hand",
+				["UniqueID"] = "96728598",
+				["ClassName"] = "bone",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "내 의상",
+		["ClassName"] = "group",
+		["UniqueID"] = "7663459",
+		["Description"] = "나에게 파트를 추가하세요!",
+	},
+},
